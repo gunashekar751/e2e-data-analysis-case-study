@@ -1,0 +1,51 @@
+product_id,product_name,category,unit_cost,unit_price,unit_margin,target_margin_pct
+PROD-01,Wireless Noise-Canceling Headphones,Electronics,120.0,249.99,129.99,52.0
+PROD-02,"Smart 4K Ultra HD TV 55""",Electronics,350.0,699.99,349.99,50.0
+PROD-03,Mechanical Gaming Keyboard,Electronics,45.0,99.99,54.989999999999995,55.0
+PROD-04,Ergonomic Wireless Mouse,Electronics,20.0,49.99,29.990000000000002,59.99
+PROD-05,Portable Bluetooth Speaker,Home & Kitchen,30.0,79.99,49.989999999999995,62.5
+PROD-06,Smart Watch Series V,Electronics,110.0,229.99,119.99000000000001,52.17
+PROD-07,USB-C Multi-Port Hub,Home & Kitchen,15.0,39.99,24.990000000000002,62.49
+PROD-08,High-Speed Wi-Fi Router,Electronics,50.0,119.99,69.99,58.33
+PROD-09,Noise Isolating Earbuds,Electronics,25.0,59.99,34.99,58.33
+PROD-10,HD Webcam 1080p,Sports & Outdoors,30.0,69.99,39.989999999999995,57.14
+PROD-11,Men's Lightweight Running Jacket,Apparel,25.0,65.0,40.0,61.54
+PROD-12,Women's High-Waist Yoga Pants,Apparel,18.0,48.0,30.0,62.5
+PROD-13,Classic Cotton Crewneck T-Shirt,Apparel,8.0,24.0,16.0,66.67
+PROD-14,All-Weather Waterproof Boots,Electronics,45.0,110.0,65.0,59.09
+PROD-15,Unisex Fleece Pullover Hoodie,Apparel,20.0,55.0,35.0,63.64
+PROD-16,Slim-Fit Denim Jeans,Electronics,28.0,68.0,40.0,58.82
+PROD-17,Thermal Base Layer Top,Apparel,15.0,38.0,23.0,60.53
+PROD-18,Breathable Athletic Socks (6-Pack),Home & Kitchen,6.0,18.0,12.0,66.67
+PROD-19,Casual Canvas Sneakers,Apparel,22.0,52.0,30.0,57.69
+PROD-20,Winter Insulated Gloves,Sports & Outdoors,12.0,32.0,20.0,62.5
+PROD-21,Stainless Steel Espresso Machine,Home & Kitchen,140.0,299.99,159.99,53.33
+PROD-22,Non-Stick Ceramic Cookware Set,Beauty & Care,80.0,189.99,109.99000000000001,57.89
+PROD-23,Smart Robot Vacuum Cleaner,Home & Kitchen,160.0,349.99,189.99,54.28
+PROD-24,Digital Air Fryer Oven 6Qt,Home & Kitchen,50.0,119.99,69.99,58.33
+PROD-25,High-Speed Blender 1200W,Home & Kitchen,40.0,89.99,49.989999999999995,55.55
+PROD-26,Memory Foam Queen Mattress Topper,Home & Kitchen,65.0,139.99,74.99000000000001,53.57
+PROD-27,Electric Kettle Temperature Control,Apparel,22.0,49.99,27.990000000000002,55.99
+PROD-28,"Chef's Knife Japanese Steel 8""",Home & Kitchen,30.0,74.99,44.989999999999995,59.99
+PROD-29,Automatic Drip Coffee Maker,Home & Kitchen,25.0,59.99,34.99,58.33
+PROD-30,Air Purifier for Large Room,Home & Kitchen,75.0,159.99,84.99000000000001,53.12
+PROD-31,Hydrating Facial Serum Vitamin C,Beauty & Care,12.0,34.0,22.0,64.71
+PROD-32,Sonic Electric Toothbrush,Beauty & Care,28.0,69.99,41.989999999999995,59.99
+PROD-33,Organic Argan Hair Oil Repair,Beauty & Care,9.0,26.0,17.0,65.38
+PROD-34,Deep Cleansing Charcoal Scrub,Beauty & Care,7.0,19.99,12.989999999999998,64.98
+PROD-35,Gentle Daily Face Moisturizer,Beauty & Care,10.0,28.0,18.0,64.29
+PROD-36,Anti-Aging Retinol Night Cream,Beauty & Care,15.0,42.0,27.0,64.29
+PROD-37,Professional Hair Dryer 1875W,Beauty & Care,25.0,59.99,34.99,58.33
+PROD-38,Natural Sunscreen SPF 50,Beauty & Care,8.0,22.0,14.0,63.64
+PROD-39,Exfoliating Body Wash Lavender,Beauty & Care,5.0,14.99,9.99,66.64
+PROD-40,Beard Grooming & Trimming Kit,Beauty & Care,14.0,35.0,21.0,60.0
+PROD-41,Adjustable Dumbbell Set 50lbs,Sports & Outdoors,110.0,249.99,139.99,56.0
+PROD-42,Waterproof 4-Person Camping Tent,Beauty & Care,60.0,149.99,89.99000000000001,60.0
+PROD-43,Insulated Stainless Hydration Bottle,Sports & Outdoors,10.0,29.99,19.99,66.66
+PROD-44,Ultra-Thick Non-Slip Yoga Mat,Sports & Outdoors,14.0,36.0,22.0,61.11
+PROD-45,Folding Camping Chair Set,Sports & Outdoors,22.0,54.99,32.99,59.99
+PROD-46,Trekking Poles Aluminum Pair,Apparel,16.0,39.99,23.990000000000002,59.99
+PROD-47,Resistance Exercise Bands (Set of 5),Sports & Outdoors,7.0,19.99,12.989999999999998,64.98
+PROD-48,High-Performance Bicycle Helmet,Sports & Outdoors,25.0,64.99,39.989999999999995,61.53
+PROD-49,Outdoor Hydration Backpack 2L,Apparel,18.0,44.99,26.990000000000002,59.99
+PROD-50,Compact LED Camping Lantern,Sports & Outdoors,8.0,21.99,13.989999999999998,63.62

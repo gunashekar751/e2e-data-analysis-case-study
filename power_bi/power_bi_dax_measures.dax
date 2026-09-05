@@ -1,0 +1,83 @@
+// =========================================================================
+// APEX RETAIL PERFORMANCE DASHBOARD - DAX MEASURES LIBRARY
+// =========================================================================
+
+// --- 1. CORE REVENUE MEASURES ---
+Total Gross Sales = SUM(FactOrders[gross_sales])
+
+Total Discounts = SUM(FactOrders[discount_amount])
+
+Total Net Sales = SUM(FactOrders[net_sales])
+
+Total Returns Amount = 
+CALCULATE(
+    SUM(FactOrders[net_sales]),
+    FactOrders[is_returned] = 1
+)
+
+Net Realized Revenue = 
+SUMX(
+    FactOrders,
+    IF(FactOrders[is_returned] = 1, 0, FactOrders[net_sales])
+)
+
+// --- 2. PROFITABILITY MEASURES ---
+Total COGS = SUM(FactOrders[total_cost])
+
+Gross Profit = [Total Net Sales] - [Total COGS]
+
+Gross Profit Margin % = 
+DIVIDE([Gross Profit], [Total Net Sales], 0)
+
+Net Profit Final = 
+SUMX(
+    FactOrders,
+    IF(FactOrders[is_returned] = 1, -FactOrders[shipping_cost], FactOrders[gross_profit])
+)
+
+Net Profit Margin % = 
+DIVIDE([Net Profit Final], [Net Realized Revenue], 0)
+
+// --- 3. VOLUME & ORDER METRICS ---
+Total Orders = DISTINCTCOUNT(FactOrders[order_id])
+
+Total Units Sold = SUM(FactOrders[quantity])
+
+Average Order Value (AOV) = 
+DIVIDE([Total Net Sales], [Total Orders], 0)
+
+Average Units Per Order = 
+DIVIDE([Total Units Sold], [Total Orders], 0)
+
+// --- 4. RETURN ANALYSIS MEASURES ---
+Total Returns Count = 
+CALCULATE(
+    COUNT(FactOrders[order_id]),
+    FactOrders[is_returned] = 1
+)
+
+Return Rate % = 
+DIVIDE([Total Returns Count], [Total Orders], 0)
+
+// --- 5. TIME INTELLIGENCE MEASURES ---
+Net Revenue YTD = 
+TOTALYTD([Net Realized Revenue], DimDate[Date])
+
+Net Revenue PY = 
+CALCULATE([Net Realized Revenue], SAMEPERIODLASTYEAR(DimDate[Date]))
+
+Net Revenue YoY Growth % = 
+DIVIDE([Net Realized Revenue] - [Net Revenue PY], [Net Revenue PY], 0)
+
+Net Revenue MoM Growth % = 
+VAR PrevMonth = CALCULATE([Net Realized Revenue], DATEADD(DimDate[Date], -1, MONTH))
+RETURN DIVIDE([Net Realized Revenue] - PrevMonth, PrevMonth, 0)
+
+// --- 6. CUSTOMER & RFM MEASURES ---
+Active Customer Count = DISTINCTCOUNT(FactOrders[customer_id])
+
+Customer Lifetime Value (CLV) = 
+DIVIDE([Net Realized Revenue], [Active Customer Count], 0)
+
+Recency Days = 
+DATEDIFF(MAX(FactOrders[order_date]), TODAY(), DAY)

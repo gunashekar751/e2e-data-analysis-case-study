@@ -1,0 +1,6 @@
+rfm_segment,total_customers,avg_recency_days,avg_frequency,avg_monetary_val,total_segment_revenue
+Loyal Customers,415,54.9,5.58,1126.84,467637.04
+At-Risk,352,230.1,4.95,1184.62,416986.28
+Champions,86,26.3,7.16,2499.06,214919.14
+Lost Customers,95,358.2,1.72,494.47,46974.79
+Potential Loyalists,42,50.9,1.81,535.65,22497.15

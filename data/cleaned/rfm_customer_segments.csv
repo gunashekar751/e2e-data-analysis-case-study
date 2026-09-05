@@ -1,0 +1,991 @@
+customer_id,customer_name,region,customer_segment,frequency,monetary,last_order_date,recency_days,rfm_segment
+CUST-1001,Christopher Brown,East,Consumer,5,1101.48,2025-12-11,20,Loyal Customers
+CUST-1002,Lisa Brown,North,Corporate,4,651.222,2025-06-07,207,At-Risk
+CUST-1003,James Williams,Midwest,Small Business,7,898.236,2025-02-20,314,At-Risk
+CUST-1004,Daniel Moore,Midwest,Consumer,7,1605.2215,2025-12-25,6,Champions
+CUST-1005,Daniel Wilson,South,Consumer,6,1380.523,2025-10-28,64,Loyal Customers
+CUST-1006,Richard Brown,Midwest,Consumer,4,1202.905,2025-08-12,141,At-Risk
+CUST-1007,Sarah Brown,North,Corporate,6,2375.848,2025-04-27,248,At-Risk
+CUST-1008,Karen Lopez,North,Small Business,3,396.0,2025-09-23,99,Loyal Customers
+CUST-1009,Matthew Martinez,North,Corporate,4,933.462,2025-10-01,91,Loyal Customers
+CUST-1010,Christopher Lopez,South,Corporate,4,234.76600000000002,2025-04-19,256,At-Risk
+CUST-1011,Christopher Williams,Midwest,Consumer,9,2535.1435,2025-05-11,234,At-Risk
+CUST-1012,Joseph Gonzalez,Midwest,Small Business,3,261.966,2025-11-23,38,Loyal Customers
+CUST-1013,Anthony Johnson,East,Corporate,4,1213.0415,2025-07-08,176,At-Risk
+CUST-1014,Michael Jackson,South,Corporate,9,1115.9475,2025-09-25,97,Loyal Customers
+CUST-1015,Donald Anderson,South,Small Business,5,410.14,2025-08-23,130,At-Risk
+CUST-1016,William Jackson,West,Consumer,5,766.875,2025-08-16,137,At-Risk
+CUST-1017,Thomas Thomas,North,Small Business,3,739.1715000000002,2025-07-08,176,At-Risk
+CUST-1018,Betty Wilson,West,Corporate,7,1337.244,2025-11-20,41,Loyal Customers
+CUST-1019,William Moore,Unknown,Consumer,5,1464.4885,2025-05-04,241,At-Risk
+CUST-1020,Donald Moore,Unknown,Consumer,3,52.699999999999996,2025-07-29,155,At-Risk
+CUST-1021,Susan Garcia,East,Consumer,3,524.4425,2025-07-08,176,At-Risk
+CUST-1022,Sandra Brown,Unknown,Small Business,2,213.966,2024-12-19,377,Lost Customers
+CUST-1023,Robert Lopez,Midwest,Small Business,3,538.8575,2025-04-28,247,At-Risk
+CUST-1024,Jessica Smith,East,Consumer,10,1917.5590000000002,2025-11-26,35,Champions
+CUST-1025,Donald Jackson,West,Small Business,6,974.877,2025-11-26,35,Loyal Customers
+CUST-1026,Robert Thomas,East,Small Business,2,1355.981,2025-02-14,320,Lost Customers
+CUST-1027,Michael Moore,South,Corporate,2,404.938,2025-12-13,18,Potential Loyalists
+CUST-1028,Nancy Lopez,West,Consumer,4,2257.858,2025-03-11,295,At-Risk
+CUST-1029,John Hernandez,Midwest,Small Business,2,275.2,2025-11-04,57,Potential Loyalists
+CUST-1030,James Williams,South,Consumer,3,133.2,2025-09-10,112,Loyal Customers
+CUST-1031,John Taylor,West,Small Business,3,197.99099999999999,2025-06-07,207,At-Risk
+CUST-1032,Lisa Jackson,West,Consumer,7,640.062,2025-10-13,79,Loyal Customers
+CUST-1033,Patricia Wilson,West,Consumer,5,552.7225,2025-06-08,206,At-Risk
+CUST-1034,Christopher Brown,East,Consumer,5,1712.1390000000001,2025-01-23,342,At-Risk
+CUST-1035,Michael Moore,South,Corporate,4,2239.905,2025-09-14,108,Loyal Customers
+CUST-1036,Margaret Williams,North,Small Business,7,1820.5585,2025-04-02,273,At-Risk
+CUST-1037,Anthony Smith,South,Corporate,3,88.0,2025-09-19,103,Loyal Customers
+CUST-1038,Jessica Miller,South,Consumer,4,845.9185,2025-10-19,73,Loyal Customers
+CUST-1039,William Anderson,Midwest,Small Business,3,621.973,2025-06-01,213,At-Risk
+CUST-1040,Robert Miller,Midwest,Small Business,3,588.643,2025-06-06,208,At-Risk
+CUST-1041,Lisa Hernandez,West,Small Business,2,43.98,2025-05-16,229,Lost Customers
+CUST-1042,Mary Taylor,North,Consumer,5,404.89599999999996,2025-11-11,50,Loyal Customers
+CUST-1043,Margaret Davis,South,Small Business,6,868.059,2025-06-02,212,At-Risk
+CUST-1044,Karen Williams,Midwest,Corporate,5,1249.753,2025-07-06,178,At-Risk
+CUST-1045,Michael Hernandez,South,Small Business,5,948.1345,2025-12-29,2,Loyal Customers
+CUST-1046,Joseph Hernandez,North,Small Business,4,962.6925,2025-10-16,76,Loyal Customers
+CUST-1047,Patricia Williams,East,Corporate,5,1196.507,2025-04-26,249,At-Risk
+CUST-1048,Donald Davis,West,Small Business,6,2388.834,2025-01-03,362,At-Risk
+CUST-1049,Karen Taylor,Midwest,Small Business,5,2406.9115,2025-05-30,215,At-Risk
+CUST-1050,Donald Jones,Midwest,Corporate,5,1144.9095,2025-08-17,136,At-Risk
+CUST-1051,Karen Miller,Unknown,Corporate,3,849.95,2025-07-12,172,At-Risk
+CUST-1052,Jessica Rodriguez,North,Corporate,2,689.97,2025-03-03,303,Lost Customers
+CUST-1053,Mary Smith,Unknown,Consumer,5,517.566,2025-06-14,200,At-Risk
+CUST-1054,Sarah Wilson,North,Consumer,6,726.831,2025-11-29,32,Loyal Customers
+CUST-1055,Mary Lopez,West,Consumer,3,1426.3905,2024-08-17,501,At-Risk
+CUST-1056,Barbara Johnson,Unknown,Small Business,4,714.334,2024-12-05,391,At-Risk
+CUST-1057,Barbara Moore,Midwest,Consumer,6,1796.1725,2025-07-08,176,At-Risk
+CUST-1058,Margaret Garcia,West,Consumer,5,572.062,2025-08-31,122,At-Risk
+CUST-1059,Betty Wilson,South,Consumer,4,1796.897,2025-12-17,14,Loyal Customers
+CUST-1060,Richard Johnson,South,Corporate,4,863.889,2024-10-24,433,At-Risk
+CUST-1061,Anthony Davis,South,Corporate,3,477.94399999999996,2024-11-26,400,At-Risk
+CUST-1062,Margaret Williams,East,Small Business,4,1110.5085,2024-07-06,543,At-Risk
+CUST-1063,Nancy Moore,North,Consumer,7,1706.858,2025-07-05,179,At-Risk
+CUST-1064,William Johnson,East,Corporate,3,466.24,2025-10-31,61,Loyal Customers
+CUST-1065,Karen Taylor,South,Consumer,7,772.443,2025-10-18,74,Loyal Customers
+CUST-1067,Michael Lopez,East,Corporate,2,620.9730000000001,2025-03-22,284,Lost Customers
+CUST-1068,Margaret Brown,Midwest,Small Business,3,670.95,2025-06-05,209,At-Risk
+CUST-1069,David Gonzalez,South,Corporate,3,359.956,2025-07-13,171,At-Risk
+CUST-1070,Richard Garcia,West,Consumer,4,830.623,2025-12-03,28,Loyal Customers
+CUST-1071,Elizabeth Miller,Midwest,Corporate,5,345.6515,2025-09-22,100,Loyal Customers
+CUST-1072,Joseph Anderson,West,Consumer,5,596.4325,2025-05-08,237,At-Risk
+CUST-1073,John Martinez,Midwest,Consumer,4,937.9100000000001,2025-04-04,271,At-Risk
+CUST-1074,Nancy Martinez,South,Consumer,4,762.4970000000001,2025-12-14,17,Loyal Customers
+CUST-1075,Jessica Martin,West,Small Business,3,1366.9454999999998,2025-12-29,2,Loyal Customers
+CUST-1076,Michael Gonzalez,South,Small Business,5,955.907,2025-11-15,46,Loyal Customers
+CUST-1077,Donald Brown,South,Small Business,8,2391.5665,2025-12-24,7,Champions
+CUST-1078,Mary Moore,West,Corporate,3,364.366,2025-10-24,68,Loyal Customers
+CUST-1079,Thomas Moore,West,Small Business,7,1741.2795,2025-05-11,234,At-Risk
+CUST-1080,Susan Moore,West,Corporate,6,190.155,2025-11-20,41,Loyal Customers
+CUST-1081,Anthony Rodriguez,West,Consumer,4,1739.3999999999999,2024-09-01,486,At-Risk
+CUST-1082,Joseph Williams,East,Corporate,9,820.23,2025-11-18,43,Loyal Customers
+CUST-1083,John Jones,South,Consumer,7,2991.3575,2025-10-18,74,Loyal Customers
+CUST-1084,Susan Wilson,West,Consumer,4,1490.4685,2025-12-21,10,Loyal Customers
+CUST-1085,Richard Jackson,Midwest,Corporate,6,2254.296,2025-12-22,9,Champions
+CUST-1086,Barbara Martinez,Midwest,Small Business,3,2991.26,2024-10-13,444,At-Risk
+CUST-1087,Betty Martin,South,Corporate,8,4066.042,2025-12-23,8,Champions
+CUST-1088,James Gonzalez,West,Consumer,5,1093.7615,2025-08-27,126,At-Risk
+CUST-1089,Sandra Jones,North,Small Business,4,1056.4155,2025-05-07,238,At-Risk
+CUST-1090,Nancy Smith,South,Consumer,5,2088.88,2025-12-11,20,Champions
+CUST-1091,William Gonzalez,East,Corporate,5,1526.465,2025-12-14,17,Champions
+CUST-1092,Matthew Wilson,West,Small Business,2,2879.95,2025-10-16,76,Potential Loyalists
+CUST-1093,Mary Lopez,Unknown,Consumer,10,2115.983,2025-08-28,125,At-Risk
+CUST-1094,Michael Smith,South,Small Business,3,665.1814999999999,2025-04-06,269,At-Risk
+CUST-1095,Charles Miller,East,Small Business,6,612.8004999999999,2024-12-03,393,At-Risk
+CUST-1096,Lisa Brown,East,Small Business,3,3969.932,2024-12-30,366,At-Risk
+CUST-1097,Sandra Martinez,West,Consumer,10,901.0545,2025-11-15,46,Loyal Customers
+CUST-1098,Charles Davis,East,Small Business,4,1804.825,2024-12-30,366,At-Risk
+CUST-1099,Betty Jackson,Midwest,Small Business,10,3196.051,2025-11-28,33,Champions
+CUST-1100,John Taylor,West,Consumer,5,1188.422,2025-05-22,223,At-Risk
+CUST-1101,Barbara Anderson,South,Small Business,3,551.94,2025-06-23,191,At-Risk
+CUST-1102,William Martin,West,Corporate,4,826.9905,2025-09-19,103,Loyal Customers
+CUST-1103,William Hernandez,East,Consumer,2,1807.75,2025-06-18,196,Lost Customers
+CUST-1104,Charles Martin,North,Corporate,2,749.941,2024-08-17,501,Lost Customers
+CUST-1105,Jessica Miller,East,Small Business,4,206.5205,2025-01-26,339,At-Risk
+CUST-1106,Sarah Smith,North,Small Business,9,1183.064,2025-12-24,7,Loyal Customers
+CUST-1107,Jessica Moore,West,Small Business,4,1275.4315000000001,2025-06-20,194,At-Risk
+CUST-1108,Joseph Smith,West,Consumer,5,1722.401,2025-09-02,120,Loyal Customers
+CUST-1109,Nancy Jackson,Midwest,Corporate,7,798.4005,2025-12-18,13,Loyal Customers
+CUST-1110,David Lopez,East,Consumer,4,404.99,2025-10-18,74,Loyal Customers
+CUST-1111,Lisa Miller,Midwest,Consumer,2,293.94399999999996,2025-11-30,31,Potential Loyalists
+CUST-1112,Michael Thomas,Midwest,Corporate,6,2447.8345,2025-11-07,54,Champions
+CUST-1113,Anthony Miller,South,Consumer,2,167.5,2025-03-22,284,Lost Customers
+CUST-1114,Robert Rodriguez,Midwest,Small Business,3,458.94899999999996,2025-10-05,87,Loyal Customers
+CUST-1115,Christopher Thomas,Midwest,Corporate,4,309.56,2025-12-13,18,Loyal Customers
+CUST-1116,Joseph Hernandez,East,Consumer,4,386.9535,2025-12-27,4,Loyal Customers
+CUST-1117,Richard Thomas,Unknown,Consumer,3,169.97,2025-12-30,1,Loyal Customers
+CUST-1118,Betty Jackson,South,Small Business,5,1628.266,2025-12-04,27,Champions
+CUST-1119,Karen Martin,Midwest,Corporate,3,93.99000000000001,2025-10-02,90,Loyal Customers
+CUST-1120,Elizabeth Jackson,Midwest,Consumer,9,4313.024,2025-12-01,30,Champions
+CUST-1121,Lisa Brown,Unknown,Corporate,2,483.943,2025-10-16,76,Potential Loyalists
+CUST-1122,John Garcia,North,Consumer,5,871.527,2025-06-08,206,At-Risk
+CUST-1123,Joseph Martin,South,Small Business,7,2638.244,2025-09-08,114,Loyal Customers
+CUST-1124,Daniel Anderson,East,Small Business,6,3981.49,2025-10-15,77,Loyal Customers
+CUST-1125,Betty Miller,South,Consumer,2,683.97,2025-08-11,142,Lost Customers
+CUST-1126,Anthony Jones,East,Small Business,4,1626.1564999999998,2025-06-16,198,At-Risk
+CUST-1127,Sandra Martinez,East,Corporate,2,1316.4405000000002,2025-09-03,119,Lost Customers
+CUST-1128,Thomas Moore,Midwest,Corporate,3,1212.6575,2025-10-30,62,Loyal Customers
+CUST-1129,Karen Rodriguez,South,Small Business,6,1664.844,2025-05-31,214,At-Risk
+CUST-1130,James Rodriguez,South,Small Business,13,3740.6175000000003,2025-12-26,5,Champions
+CUST-1131,Joseph Rodriguez,West,Corporate,7,1653.835,2025-07-21,163,At-Risk
+CUST-1132,Jessica Lopez,Unknown,Consumer,6,1199.338,2025-11-07,54,Loyal Customers
+CUST-1133,Susan Thomas,Midwest,Corporate,9,1492.315,2025-12-08,23,Loyal Customers
+CUST-1134,David Rodriguez,West,Consumer,4,799.9269999999999,2025-04-21,254,At-Risk
+CUST-1135,Margaret Moore,South,Corporate,6,1544.887,2025-01-15,350,At-Risk
+CUST-1136,Matthew Thomas,North,Corporate,6,2603.6855000000005,2025-11-01,60,Champions
+CUST-1137,Robert Martinez,West,Consumer,3,239.983,2025-08-20,133,At-Risk
+CUST-1138,Karen Davis,Midwest,Small Business,6,1878.16,2025-08-28,125,At-Risk
+CUST-1139,John Davis,West,Small Business,4,419.9415,2025-01-12,353,At-Risk
+CUST-1140,Jessica Martinez,West,Corporate,8,2414.7345,2025-07-29,155,At-Risk
+CUST-1141,Joseph Moore,Midwest,Small Business,9,1997.8185,2025-12-30,1,Champions
+CUST-1142,Margaret Williams,East,Corporate,1,28.4905,2025-10-27,65,Potential Loyalists
+CUST-1143,Elizabeth Martinez,Unknown,Consumer,6,1226.9075,2025-05-06,239,At-Risk
+CUST-1144,Sarah Thomas,Midwest,Corporate,6,1469.1865,2025-12-14,17,Loyal Customers
+CUST-1145,Margaret Miller,Midwest,Consumer,7,926.147,2025-12-06,25,Loyal Customers
+CUST-1146,Mary Hernandez,West,Small Business,4,1188.4450000000002,2025-02-24,310,At-Risk
+CUST-1147,Robert Thomas,Midwest,Corporate,4,778.316,2025-11-29,32,Loyal Customers
+CUST-1148,Margaret Anderson,North,Consumer,5,826.115,2025-08-14,139,At-Risk
+CUST-1149,Margaret Jones,East,Small Business,8,2176.723,2025-12-28,3,Champions
+CUST-1150,Christopher Williams,Midwest,Corporate,4,821.1800000000001,2025-03-26,280,At-Risk
+CUST-1151,Daniel Thomas,Midwest,Consumer,4,1628.9335,2025-11-02,59,Loyal Customers
+CUST-1152,Nancy Martinez,North,Consumer,4,582.14,2025-02-24,310,At-Risk
+CUST-1153,Daniel Brown,East,Consumer,3,449.0915,2025-03-23,283,At-Risk
+CUST-1154,Betty Johnson,West,Consumer,2,324.755,2025-04-30,245,Lost Customers
+CUST-1155,Susan Jackson,South,Consumer,3,575.3535,2025-05-22,223,At-Risk
+CUST-1156,Margaret Gonzalez,West,Consumer,1,64.99,2025-05-24,221,Lost Customers
+CUST-1157,Joseph Rodriguez,North,Corporate,5,715.427,2025-07-02,182,At-Risk
+CUST-1158,Sarah Garcia,Midwest,Small Business,6,1055.3785,2025-12-19,12,Loyal Customers
+CUST-1159,Daniel Rodriguez,South,Corporate,4,2138.925,2025-11-15,46,Loyal Customers
+CUST-1160,Linda Gonzalez,East,Corporate,9,1515.9245,2025-10-06,86,Loyal Customers
+CUST-1161,Anthony Gonzalez,Unknown,Consumer,5,757.726,2025-05-13,232,At-Risk
+CUST-1162,Lisa Thomas,South,Corporate,4,2381.914,2025-02-16,318,At-Risk
+CUST-1163,Christopher Miller,Unknown,Consumer,4,587.145,2025-01-31,334,At-Risk
+CUST-1164,Patricia Johnson,North,Corporate,2,482.36199999999997,2025-12-10,21,Potential Loyalists
+CUST-1165,John Martinez,South,Consumer,7,665.417,2025-11-20,41,Loyal Customers
+CUST-1166,Donald Lopez,South,Corporate,4,469.58299999999997,2025-06-01,213,At-Risk
+CUST-1167,Lisa Hernandez,North,Consumer,4,2257.17,2025-05-05,240,At-Risk
+CUST-1168,Lisa Gonzalez,East,Corporate,5,648.52,2025-07-29,155,At-Risk
+CUST-1169,William Moore,Unknown,Small Business,5,518.744,2025-10-04,88,Loyal Customers
+CUST-1170,Charles Gonzalez,North,Consumer,8,734.105,2025-07-20,164,At-Risk
+CUST-1171,James Martin,East,Consumer,9,2251.157,2025-10-25,67,Loyal Customers
+CUST-1172,John Anderson,Unknown,Consumer,4,774.138,2025-06-23,191,At-Risk
+CUST-1173,Mary Johnson,North,Consumer,5,1569.5194999999999,2025-08-03,150,At-Risk
+CUST-1174,Robert Gonzalez,Midwest,Small Business,4,958.0730000000001,2025-12-29,2,Loyal Customers
+CUST-1175,Donald Wilson,Midwest,Corporate,3,917.4175,2025-07-03,181,At-Risk
+CUST-1176,Daniel Lopez,South,Consumer,3,884.44,2025-06-27,187,At-Risk
+CUST-1177,Sarah Lopez,South,Corporate,6,1635.3965,2025-08-22,131,At-Risk
+CUST-1178,Nancy Miller,North,Corporate,2,107.982,2025-08-04,149,Lost Customers
+CUST-1179,Robert Jackson,Midwest,Small Business,2,272.981,2025-02-28,306,Lost Customers
+CUST-1180,Anthony Davis,Midwest,Corporate,3,1192.4145,2025-12-29,2,Loyal Customers
+CUST-1181,Robert Moore,North,Consumer,7,883.7909999999999,2025-12-27,4,Loyal Customers
+CUST-1182,James Lopez,Midwest,Consumer,7,958.014,2025-12-06,25,Loyal Customers
+CUST-1183,William Johnson,Midwest,Small Business,4,539.918,2025-07-27,157,At-Risk
+CUST-1184,Jessica Anderson,Midwest,Corporate,2,74.0,2025-04-13,262,Lost Customers
+CUST-1185,Linda Martin,Midwest,Corporate,4,558.975,2025-11-29,32,Loyal Customers
+CUST-1186,James Johnson,West,Consumer,5,734.8135,2025-11-18,43,Loyal Customers
+CUST-1187,Daniel Anderson,East,Consumer,5,1444.8525,2025-05-15,230,At-Risk
+CUST-1188,Robert Rodriguez,Midwest,Corporate,3,1312.95,2025-08-11,142,At-Risk
+CUST-1189,Karen Taylor,Midwest,Consumer,4,1328.962,2024-05-04,606,At-Risk
+CUST-1190,Margaret Moore,West,Consumer,7,3500.3625,2025-09-02,120,Loyal Customers
+CUST-1191,David Anderson,North,Corporate,6,1249.399,2025-08-04,149,At-Risk
+CUST-1192,Nancy Rodriguez,Unknown,Consumer,4,740.501,2025-03-29,277,At-Risk
+CUST-1193,Anthony Williams,East,Small Business,5,3273.922,2025-10-07,85,Loyal Customers
+CUST-1194,Charles Moore,North,Corporate,7,1449.5815,2024-12-27,369,At-Risk
+CUST-1195,Matthew Wilson,North,Small Business,2,229.93,2025-12-24,7,Potential Loyalists
+CUST-1196,Barbara Brown,South,Corporate,4,2183.88,2025-08-30,123,At-Risk
+CUST-1197,Margaret Brown,East,Corporate,5,1105.9355,2025-11-23,38,Loyal Customers
+CUST-1198,Linda Wilson,Midwest,Small Business,7,372.8905,2025-03-01,305,At-Risk
+CUST-1199,Sarah Smith,East,Consumer,2,79.96000000000001,2024-08-26,492,Lost Customers
+CUST-1200,Daniel Martinez,North,Consumer,7,2621.829,2025-06-21,193,At-Risk
+CUST-1201,Nancy Gonzalez,Unknown,Consumer,8,2804.8450000000003,2025-07-26,158,At-Risk
+CUST-1202,Michael Gonzalez,South,Corporate,2,543.95,2025-07-25,159,Lost Customers
+CUST-1203,Matthew Jackson,South,Small Business,4,1168.7325,2025-12-26,5,Loyal Customers
+CUST-1204,Nancy Williams,West,Small Business,8,2337.525,2025-06-05,209,At-Risk
+CUST-1205,Susan Rodriguez,North,Corporate,3,385.2335,2025-08-09,144,At-Risk
+CUST-1206,Elizabeth Jackson,East,Consumer,2,1235.4215,2025-10-19,73,Potential Loyalists
+CUST-1207,Karen Johnson,East,Consumer,4,1042.9185,2025-07-18,166,At-Risk
+CUST-1208,Elizabeth Hernandez,West,Consumer,5,854.894,2025-07-02,182,At-Risk
+CUST-1209,Sarah Davis,East,Corporate,2,349.95,2024-08-14,504,Lost Customers
+CUST-1210,Susan Smith,East,Corporate,4,201.8405,2025-12-14,17,Loyal Customers
+CUST-1211,Richard Wilson,North,Consumer,6,673.7524999999999,2025-11-12,49,Loyal Customers
+CUST-1212,Joseph Lopez,South,Small Business,3,227.18,2025-08-13,140,At-Risk
+CUST-1213,Thomas Williams,East,Corporate,10,1283.7305,2025-11-30,31,Loyal Customers
+CUST-1214,John Taylor,Midwest,Corporate,2,172.466,2025-10-29,63,Potential Loyalists
+CUST-1215,Lisa Jones,East,Consumer,7,998.2719999999999,2025-12-21,10,Loyal Customers
+CUST-1216,Robert Williams,Unknown,Corporate,4,512.98,2025-07-23,161,At-Risk
+CUST-1217,Matthew Jackson,Unknown,Small Business,4,1784.9295000000002,2025-03-06,300,At-Risk
+CUST-1218,Margaret Hernandez,West,Small Business,6,2111.868,2025-07-29,155,At-Risk
+CUST-1219,Betty Rodriguez,Midwest,Corporate,3,1001.1225,2025-12-14,17,Loyal Customers
+CUST-1220,Joseph Johnson,North,Consumer,7,3646.4615,2025-07-13,171,At-Risk
+CUST-1221,Karen Taylor,Midwest,Consumer,8,4917.804,2025-09-26,96,Loyal Customers
+CUST-1222,Sandra Jackson,Midwest,Small Business,8,2050.313,2025-10-20,72,Loyal Customers
+CUST-1223,Mary Anderson,North,Small Business,4,408.34,2025-11-01,60,Loyal Customers
+CUST-1224,Mary Davis,Midwest,Small Business,3,947.9655,2025-09-17,105,Loyal Customers
+CUST-1225,Barbara Lopez,West,Small Business,3,310.77,2025-10-26,66,Loyal Customers
+CUST-1226,Mary Hernandez,Midwest,Corporate,8,1943.864,2025-11-12,49,Champions
+CUST-1227,William Martin,North,Small Business,7,1465.0105,2025-07-19,165,At-Risk
+CUST-1228,Sandra Lopez,Unknown,Consumer,11,936.7735,2025-11-18,43,Loyal Customers
+CUST-1229,Daniel Williams,Unknown,Consumer,4,361.954,2025-12-17,14,Loyal Customers
+CUST-1230,Daniel Taylor,West,Corporate,7,2546.4945000000002,2025-12-13,18,Champions
+CUST-1231,Barbara Martinez,East,Consumer,5,3663.9145,2025-12-29,2,Champions
+CUST-1232,Robert Jones,Midwest,Small Business,6,534.28,2025-06-01,213,At-Risk
+CUST-1233,Mary Hernandez,South,Corporate,2,873.6675,2025-10-17,75,Potential Loyalists
+CUST-1234,Jennifer Garcia,Midwest,Small Business,4,512.49,2025-11-13,48,Loyal Customers
+CUST-1235,Mary Wilson,South,Small Business,6,898.9240000000001,2025-02-25,309,At-Risk
+CUST-1236,Matthew Anderson,East,Consumer,4,523.366,2025-08-30,123,At-Risk
+CUST-1237,Nancy Jackson,East,Small Business,1,1062.4575,2024-03-24,647,Lost Customers
+CUST-1238,Susan Garcia,South,Consumer,4,1133.028,2025-08-13,140,At-Risk
+CUST-1239,Jessica Lopez,Midwest,Corporate,8,974.556,2025-06-24,190,At-Risk
+CUST-1240,Matthew Garcia,South,Consumer,7,2563.3305,2025-11-08,53,Champions
+CUST-1241,Anthony Anderson,West,Corporate,5,674.7620000000001,2025-04-11,264,At-Risk
+CUST-1242,Barbara Davis,East,Consumer,3,1687.043,2025-06-20,194,At-Risk
+CUST-1243,Sandra Brown,East,Consumer,5,1278.3935,2025-06-03,211,At-Risk
+CUST-1244,Elizabeth Thomas,West,Small Business,9,2080.446,2025-12-02,29,Champions
+CUST-1246,Thomas Wilson,South,Consumer,3,665.505,2025-06-24,190,At-Risk
+CUST-1247,Linda Wilson,West,Consumer,2,213.7405,2024-10-09,448,Lost Customers
+CUST-1248,Karen Moore,Midwest,Consumer,9,1894.9755,2025-08-07,146,At-Risk
+CUST-1249,Elizabeth Wilson,East,Small Business,6,1455.8690000000001,2025-09-19,103,Loyal Customers
+CUST-1250,Jennifer Williams,North,Small Business,5,931.9615,2025-07-12,172,At-Risk
+CUST-1251,Betty Taylor,West,Small Business,7,2341.343,2025-12-16,15,Champions
+CUST-1252,Barbara Rodriguez,North,Consumer,8,2342.504,2025-12-10,21,Champions
+CUST-1253,Christopher Brown,East,Consumer,3,369.166,2025-11-30,31,Loyal Customers
+CUST-1254,Sarah Hernandez,Unknown,Small Business,5,3186.824,2025-09-27,95,Loyal Customers
+CUST-1255,Christopher Garcia,West,Corporate,9,960.0755,2025-12-11,20,Loyal Customers
+CUST-1256,Mary Miller,East,Corporate,4,1909.914,2025-08-22,131,At-Risk
+CUST-1257,Jessica Rodriguez,South,Corporate,4,3283.1005,2025-09-27,95,Loyal Customers
+CUST-1258,Margaret Hernandez,West,Small Business,1,43.2,2024-02-16,684,Lost Customers
+CUST-1259,Donald Gonzalez,West,Corporate,5,1322.286,2025-10-14,78,Loyal Customers
+CUST-1260,Sandra Taylor,West,Corporate,2,52.0,2025-03-17,289,Lost Customers
+CUST-1261,Anthony Garcia,North,Corporate,3,356.945,2025-06-23,191,At-Risk
+CUST-1262,Elizabeth Martinez,West,Small Business,6,797.283,2025-07-25,159,At-Risk
+CUST-1263,Barbara Anderson,Midwest,Corporate,3,435.97,2025-11-01,60,Loyal Customers
+CUST-1264,Betty Johnson,West,Small Business,10,1568.363,2025-11-10,51,Champions
+CUST-1265,Jennifer Smith,Unknown,Consumer,7,806.3555,2025-12-07,24,Loyal Customers
+CUST-1266,John Davis,East,Small Business,6,601.438,2025-11-02,59,Loyal Customers
+CUST-1267,Karen Jones,East,Consumer,3,968.962,2025-12-27,4,Loyal Customers
+CUST-1268,Robert Taylor,Unknown,Consumer,6,1064.018,2025-07-09,175,At-Risk
+CUST-1269,James Garcia,Midwest,Corporate,7,1285.587,2025-11-10,51,Loyal Customers
+CUST-1270,Daniel Anderson,East,Corporate,6,963.3755,2025-12-07,24,Loyal Customers
+CUST-1271,Patricia Jones,South,Corporate,5,736.2895,2025-09-07,115,Loyal Customers
+CUST-1272,Betty Hernandez,North,Small Business,1,99.99,2025-10-12,80,Potential Loyalists
+CUST-1273,Donald Martinez,Unknown,Corporate,5,542.39,2025-11-12,49,Loyal Customers
+CUST-1274,Linda Brown,South,Consumer,6,2474.2665,2025-08-07,146,At-Risk
+CUST-1275,Sarah Jackson,South,Consumer,3,490.9565,2025-11-23,38,Loyal Customers
+CUST-1276,Elizabeth Gonzalez,West,Corporate,3,369.9455,2025-10-25,67,Loyal Customers
+CUST-1277,Anthony Jackson,Unknown,Corporate,4,240.6845,2025-10-23,69,Loyal Customers
+CUST-1278,Nancy Taylor,Unknown,Consumer,5,327.99,2025-10-04,88,Loyal Customers
+CUST-1279,Susan Taylor,North,Consumer,5,783.867,2025-04-07,268,At-Risk
+CUST-1280,Jennifer Garcia,South,Small Business,3,242.981,2025-02-04,330,At-Risk
+CUST-1281,Margaret Williams,Midwest,Consumer,8,2576.339,2025-12-20,11,Champions
+CUST-1282,Elizabeth Martin,Unknown,Small Business,5,541.9159999999999,2025-01-06,359,At-Risk
+CUST-1283,Robert Garcia,Midwest,Small Business,13,3749.6755,2025-11-28,33,Champions
+CUST-1284,Anthony Smith,Midwest,Small Business,6,4760.0805,2025-08-06,147,At-Risk
+CUST-1285,Matthew Jackson,North,Small Business,6,1091.3899999999999,2025-11-22,39,Loyal Customers
+CUST-1286,Elizabeth Martinez,West,Corporate,9,694.296,2025-12-01,30,Loyal Customers
+CUST-1287,Daniel Johnson,West,Consumer,2,165.982,2025-10-16,76,Potential Loyalists
+CUST-1288,Karen Jones,East,Corporate,8,1370.904,2025-10-08,84,Loyal Customers
+CUST-1289,Robert Lopez,East,Corporate,10,1282.3775,2025-11-01,60,Loyal Customers
+CUST-1290,William Anderson,North,Corporate,6,1175.1295,2025-10-14,78,Loyal Customers
+CUST-1291,Susan Davis,East,Small Business,6,1749.844,2025-10-14,78,Loyal Customers
+CUST-1292,Michael Garcia,West,Corporate,7,2225.834,2024-11-09,417,At-Risk
+CUST-1293,James Williams,West,Consumer,4,638.482,2025-06-08,206,At-Risk
+CUST-1294,Barbara Johnson,Midwest,Small Business,5,1303.0915,2025-08-05,148,At-Risk
+CUST-1295,Elizabeth Moore,North,Consumer,10,1922.63,2025-12-27,4,Champions
+CUST-1296,Lisa Lopez,North,Consumer,1,216.0,2024-06-26,553,Lost Customers
+CUST-1297,Sarah Miller,North,Small Business,7,1550.7615,2025-09-21,101,Loyal Customers
+CUST-1298,Matthew Moore,Unknown,Consumer,3,835.47,2025-07-11,173,At-Risk
+CUST-1299,Patricia Gonzalez,Midwest,Consumer,6,468.5,2025-10-04,88,Loyal Customers
+CUST-1300,Karen Taylor,North,Consumer,4,515.961,2025-12-13,18,Loyal Customers
+CUST-1301,Betty Thomas,Midwest,Consumer,4,991.4845,2025-06-13,201,At-Risk
+CUST-1302,Sandra Martin,Midwest,Corporate,5,1249.743,2025-09-22,100,Loyal Customers
+CUST-1303,David Taylor,West,Small Business,5,1783.4360000000001,2025-12-04,27,Champions
+CUST-1304,Jessica Smith,North,Small Business,1,699.98,2025-10-10,82,Potential Loyalists
+CUST-1306,Lisa Johnson,Midwest,Small Business,6,774.829,2025-09-13,109,Loyal Customers
+CUST-1307,Matthew Gonzalez,South,Small Business,6,2663.914,2025-07-10,174,At-Risk
+CUST-1308,Michael Smith,South,Small Business,2,392.9715,2025-09-08,114,Lost Customers
+CUST-1309,Susan Taylor,North,Consumer,6,787.3969999999999,2025-06-12,202,At-Risk
+CUST-1310,Michael Moore,West,Corporate,9,1572.4065,2025-10-01,91,Loyal Customers
+CUST-1311,Jennifer Anderson,Midwest,Small Business,10,1597.809,2025-09-06,116,Loyal Customers
+CUST-1312,Christopher Rodriguez,South,Small Business,4,790.0415,2025-12-12,19,Loyal Customers
+CUST-1313,Linda Martinez,South,Small Business,6,767.4685,2025-11-11,50,Loyal Customers
+CUST-1314,David Thomas,East,Consumer,3,1539.92,2025-11-18,43,Loyal Customers
+CUST-1315,Nancy Moore,East,Corporate,2,130.957,2025-10-28,64,Potential Loyalists
+CUST-1316,Elizabeth Williams,Unknown,Small Business,10,1950.7125,2025-06-25,189,At-Risk
+CUST-1317,Michael Miller,Midwest,Corporate,4,341.93600000000004,2025-10-25,67,Loyal Customers
+CUST-1318,Patricia Martin,South,Small Business,6,334.491,2025-10-19,73,Loyal Customers
+CUST-1319,Linda Davis,East,Corporate,7,2331.1525,2025-05-12,233,At-Risk
+CUST-1320,Nancy Jones,Midwest,Corporate,5,886.21,2025-12-21,10,Loyal Customers
+CUST-1321,Sandra Thomas,East,Corporate,3,892.3360000000001,2025-08-27,126,At-Risk
+CUST-1322,Mary Williams,Midwest,Small Business,9,1512.8155,2025-08-14,139,At-Risk
+CUST-1323,Sandra Garcia,North,Corporate,2,311.9905,2025-10-23,69,Potential Loyalists
+CUST-1324,Sandra Martinez,East,Small Business,3,494.965,2025-08-21,132,At-Risk
+CUST-1325,Sandra Hernandez,Midwest,Corporate,3,4633.91,2025-09-25,97,Loyal Customers
+CUST-1326,Margaret Taylor,North,Consumer,5,3102.4069999999997,2025-12-15,16,Champions
+CUST-1327,Christopher Rodriguez,East,Small Business,3,633.55,2025-12-19,12,Loyal Customers
+CUST-1328,Matthew Miller,West,Small Business,8,2024.996,2025-11-20,41,Champions
+CUST-1329,John Gonzalez,South,Corporate,9,1138.538,2025-12-03,28,Loyal Customers
+CUST-1330,James Rodriguez,East,Corporate,5,4065.7915,2025-12-25,6,Champions
+CUST-1331,Lisa Jackson,Unknown,Small Business,3,4122.8859999999995,2025-01-05,360,At-Risk
+CUST-1332,Mary Brown,West,Small Business,2,365.92949999999996,2024-05-17,593,Lost Customers
+CUST-1333,Daniel Brown,East,Consumer,6,734.336,2025-07-07,177,At-Risk
+CUST-1334,Robert Thomas,Midwest,Corporate,6,2194.6085,2025-05-09,236,At-Risk
+CUST-1335,Sandra Thomas,South,Small Business,4,619.4329999999999,2025-09-11,111,Loyal Customers
+CUST-1336,Margaret Williams,East,Small Business,4,628.741,2024-12-13,383,At-Risk
+CUST-1337,Mary Moore,Midwest,Consumer,2,134.0,2025-12-24,7,Potential Loyalists
+CUST-1338,David Taylor,South,Small Business,5,280.884,2025-11-18,43,Loyal Customers
+CUST-1339,John Taylor,West,Small Business,5,998.896,2025-02-25,309,At-Risk
+CUST-1340,Joseph Jackson,Unknown,Small Business,4,1280.153,2025-08-25,128,At-Risk
+CUST-1341,Richard Rodriguez,South,Consumer,4,414.95,2025-09-08,114,Loyal Customers
+CUST-1342,Susan Lopez,North,Corporate,5,1198.64,2025-11-14,47,Loyal Customers
+CUST-1343,Elizabeth Wilson,Unknown,Small Business,7,1319.711,2025-09-11,111,Loyal Customers
+CUST-1344,Barbara Gonzalez,West,Small Business,4,959.3775,2024-08-25,493,At-Risk
+CUST-1345,Margaret Moore,North,Small Business,6,778.428,2025-10-07,85,Loyal Customers
+CUST-1346,Thomas Jones,North,Corporate,5,421.868,2025-09-16,106,Loyal Customers
+CUST-1347,Nancy Moore,South,Corporate,1,139.98,2024-05-29,581,Lost Customers
+CUST-1348,Robert Rodriguez,North,Small Business,6,1363.2245,2025-08-02,151,At-Risk
+CUST-1349,Karen Smith,North,Consumer,11,1383.91,2025-10-29,63,Loyal Customers
+CUST-1350,Karen Johnson,West,Consumer,6,1251.4815,2025-12-29,2,Loyal Customers
+CUST-1351,Michael Johnson,South,Small Business,5,650.921,2025-04-30,245,At-Risk
+CUST-1352,Charles Martin,South,Consumer,1,12.7415,2025-01-16,349,Lost Customers
+CUST-1353,Thomas Davis,North,Small Business,5,803.9005,2025-11-27,34,Loyal Customers
+CUST-1354,Christopher Wilson,East,Small Business,5,898.4300000000001,2025-10-02,90,Loyal Customers
+CUST-1355,Betty Taylor,West,Corporate,4,1114.9605000000001,2025-12-29,2,Loyal Customers
+CUST-1356,Jennifer Moore,East,Consumer,7,1408.135,2025-11-04,57,Loyal Customers
+CUST-1357,Sandra Johnson,Midwest,Consumer,5,806.443,2025-01-03,362,At-Risk
+CUST-1358,Linda Rodriguez,North,Corporate,7,1182.564,2025-12-09,22,Loyal Customers
+CUST-1359,Sarah Miller,Unknown,Small Business,7,1558.8725,2025-12-06,25,Champions
+CUST-1360,Margaret Williams,Midwest,Small Business,2,59.4915,2025-08-27,126,Lost Customers
+CUST-1361,Michael Thomas,East,Consumer,4,2044.8885,2025-10-26,66,Loyal Customers
+CUST-1362,Lisa Brown,West,Small Business,7,736.8085,2025-09-05,117,Loyal Customers
+CUST-1363,Daniel Miller,Midwest,Corporate,5,735.366,2025-05-29,216,At-Risk
+CUST-1364,Joseph Moore,East,Small Business,2,230.39100000000002,2025-05-29,216,Lost Customers
+CUST-1365,Joseph Brown,West,Consumer,6,379.591,2025-04-30,245,At-Risk
+CUST-1366,David Wilson,South,Corporate,7,965.1205,2025-08-07,146,At-Risk
+CUST-1367,Sandra Jackson,East,Consumer,5,846.155,2025-08-24,129,At-Risk
+CUST-1368,Linda Gonzalez,West,Small Business,7,1421.858,2025-11-07,54,Loyal Customers
+CUST-1369,William Thomas,West,Consumer,1,199.98,2024-07-18,531,Lost Customers
+CUST-1370,Jennifer Jones,South,Small Business,5,1294.9115000000002,2025-10-07,85,Loyal Customers
+CUST-1371,Thomas Johnson,Unknown,Consumer,9,2682.5525000000002,2025-09-30,92,Loyal Customers
+CUST-1372,Robert Davis,North,Small Business,9,1345.891,2025-06-21,193,At-Risk
+CUST-1373,Barbara Johnson,Midwest,Small Business,5,2513.1135000000004,2025-10-20,72,Loyal Customers
+CUST-1374,James Smith,North,Small Business,6,1423.7425,2025-04-14,261,At-Risk
+CUST-1375,Sarah Martinez,Unknown,Consumer,4,733.484,2024-12-28,368,At-Risk
+CUST-1376,Sandra Brown,South,Small Business,8,2061.3285,2025-11-19,42,Champions
+CUST-1377,Anthony Lopez,North,Corporate,6,4029.516,2025-09-09,113,Loyal Customers
+CUST-1378,Charles Davis,East,Consumer,8,3330.759,2025-10-26,66,Loyal Customers
+CUST-1379,Margaret Johnson,West,Corporate,5,913.9185,2025-07-16,168,At-Risk
+CUST-1380,Christopher Smith,West,Small Business,8,1279.8775,2025-09-16,106,Loyal Customers
+CUST-1381,Charles Brown,South,Small Business,4,774.2005,2025-10-29,63,Loyal Customers
+CUST-1382,Jessica Rodriguez,Unknown,Small Business,2,1179.92,2024-12-21,375,Lost Customers
+CUST-1383,Nancy Johnson,North,Small Business,6,2131.8334999999997,2025-11-24,37,Champions
+CUST-1384,Matthew Gonzalez,South,Consumer,1,919.96,2024-12-01,395,Lost Customers
+CUST-1385,Anthony Gonzalez,East,Small Business,2,263.9415,2024-11-17,409,Lost Customers
+CUST-1386,Betty Williams,North,Corporate,5,598.4215,2025-11-20,41,Loyal Customers
+CUST-1387,Anthony Williams,Midwest,Corporate,7,1413.6345,2025-08-27,126,At-Risk
+CUST-1388,James Rodriguez,West,Corporate,5,1028.9370000000001,2025-01-08,357,At-Risk
+CUST-1389,Richard Wilson,Unknown,Consumer,5,2937.3905,2025-06-21,193,At-Risk
+CUST-1390,Elizabeth Davis,East,Corporate,3,1497.908,2025-10-19,73,Loyal Customers
+CUST-1391,Robert Gonzalez,North,Corporate,10,3702.966,2025-10-06,86,Loyal Customers
+CUST-1392,Barbara Rodriguez,South,Corporate,3,1965.9465,2025-07-10,174,At-Risk
+CUST-1393,Sarah Taylor,North,Small Business,6,1126.001,2025-11-02,59,Loyal Customers
+CUST-1394,Karen Martin,North,Corporate,6,474.2795,2025-02-11,323,At-Risk
+CUST-1395,Matthew Williams,South,Small Business,3,484.96849999999995,2025-05-24,221,At-Risk
+CUST-1396,Nancy Gonzalez,East,Corporate,2,441.1575,2025-02-17,317,Lost Customers
+CUST-1397,John Garcia,East,Consumer,6,1218.363,2025-10-24,68,Loyal Customers
+CUST-1398,William Davis,Midwest,Consumer,6,495.08750000000003,2025-11-05,56,Loyal Customers
+CUST-1399,Patricia Jones,East,Corporate,10,1755.0175,2025-09-28,94,Loyal Customers
+CUST-1400,Joseph Hernandez,Midwest,Corporate,5,730.515,2025-12-19,12,Loyal Customers
+CUST-1401,Karen Miller,West,Corporate,4,1995.898,2025-12-15,16,Loyal Customers
+CUST-1402,Jessica Jackson,West,Corporate,4,236.276,2025-11-04,57,Loyal Customers
+CUST-1403,Patricia Jackson,South,Small Business,11,5261.5135,2025-11-26,35,Champions
+CUST-1405,Anthony Wilson,Unknown,Consumer,6,3235.479,2025-08-06,147,At-Risk
+CUST-1406,Nancy Jones,North,Small Business,6,774.2575,2025-12-22,9,Loyal Customers
+CUST-1407,Charles Gonzalez,West,Consumer,4,199.18,2025-11-11,50,Loyal Customers
+CUST-1408,Daniel Moore,North,Small Business,6,2597.004,2025-12-09,22,Champions
+CUST-1409,Barbara Garcia,Midwest,Small Business,7,1012.678,2025-07-28,156,At-Risk
+CUST-1410,Richard Hernandez,North,Consumer,4,271.53999999999996,2025-11-09,52,Loyal Customers
+CUST-1411,Linda Taylor,Midwest,Small Business,7,835.925,2025-11-29,32,Loyal Customers
+CUST-1412,Joseph Lopez,Unknown,Small Business,3,108.59,2025-06-27,187,At-Risk
+CUST-1413,Robert Lopez,North,Corporate,4,470.7365,2025-05-16,229,At-Risk
+CUST-1414,Patricia Jones,West,Small Business,2,483.94800000000004,2024-07-22,527,Lost Customers
+CUST-1415,Barbara Thomas,West,Consumer,7,2586.85,2025-08-18,135,At-Risk
+CUST-1416,Mary Brown,East,Consumer,8,2809.5040000000004,2025-12-30,1,Champions
+CUST-1417,Betty Garcia,South,Consumer,2,588.4205,2025-08-06,147,Lost Customers
+CUST-1418,Jennifer Hernandez,South,Small Business,6,164.582,2025-11-10,51,Loyal Customers
+CUST-1419,Jennifer Wilson,Midwest,Corporate,1,24.7,2024-04-05,635,Lost Customers
+CUST-1420,Susan Gonzalez,South,Corporate,6,985.89,2025-10-24,68,Loyal Customers
+CUST-1421,Charles Brown,South,Corporate,6,1481.4015,2025-01-12,353,At-Risk
+CUST-1422,Joseph Brown,Midwest,Corporate,3,435.952,2024-05-26,584,At-Risk
+CUST-1423,Richard Martin,East,Corporate,4,1346.8500000000001,2025-12-05,26,Loyal Customers
+CUST-1424,Jennifer Martinez,North,Consumer,6,1077.036,2025-11-29,32,Loyal Customers
+CUST-1425,Patricia Davis,East,Consumer,7,1339.6480000000001,2025-09-05,117,Loyal Customers
+CUST-1426,Richard Wilson,West,Consumer,1,74.1,2025-11-11,50,Potential Loyalists
+CUST-1427,Christopher Moore,South,Consumer,3,456.911,2025-11-27,34,Loyal Customers
+CUST-1428,Elizabeth Jones,Midwest,Corporate,7,840.946,2025-07-14,170,At-Risk
+CUST-1429,Jessica Jones,Midwest,Small Business,6,948.295,2025-09-10,112,Loyal Customers
+CUST-1430,Susan Thomas,West,Consumer,8,2866.943,2025-09-17,105,Loyal Customers
+CUST-1431,James Davis,South,Corporate,5,380.5585,2025-12-24,7,Loyal Customers
+CUST-1432,Matthew Anderson,West,Small Business,4,569.5799999999999,2025-12-15,16,Loyal Customers
+CUST-1433,Charles Brown,East,Consumer,7,2406.0605,2025-12-20,11,Champions
+CUST-1434,Sarah Miller,Unknown,Corporate,2,393.433,2025-07-04,180,Lost Customers
+CUST-1435,Joseph Rodriguez,West,Consumer,4,195.274,2025-01-08,357,At-Risk
+CUST-1436,Betty Jackson,Midwest,Corporate,3,736.466,2025-12-23,8,Loyal Customers
+CUST-1437,Karen Jones,North,Corporate,7,792.409,2025-12-04,27,Loyal Customers
+CUST-1438,William Martin,East,Small Business,6,581.9445000000001,2025-12-02,29,Loyal Customers
+CUST-1439,Margaret Taylor,North,Corporate,10,1638.4125,2025-12-20,11,Champions
+CUST-1440,William Jones,South,Small Business,5,731.2705,2025-11-23,38,Loyal Customers
+CUST-1441,Anthony Davis,West,Consumer,2,229.466,2025-05-30,215,Lost Customers
+CUST-1442,Christopher Rodriguez,West,Small Business,6,3495.9139999999998,2025-12-07,24,Champions
+CUST-1443,Richard Taylor,East,Corporate,7,788.1535,2025-09-09,113,Loyal Customers
+CUST-1444,Charles Smith,North,Corporate,3,1027.4355,2025-10-07,85,Loyal Customers
+CUST-1445,Nancy Lopez,West,Corporate,6,1280.644,2025-10-13,79,Loyal Customers
+CUST-1446,Jessica Rodriguez,East,Small Business,4,414.9215,2025-05-13,232,At-Risk
+CUST-1447,Charles Thomas,North,Consumer,5,401.502,2025-12-30,1,Loyal Customers
+CUST-1448,Betty Anderson,South,Corporate,6,481.05,2025-09-26,96,Loyal Customers
+CUST-1449,Susan Miller,Unknown,Consumer,5,1112.3555000000001,2025-11-05,56,Loyal Customers
+CUST-1450,John Lopez,Unknown,Consumer,5,484.0405,2025-09-29,93,Loyal Customers
+CUST-1451,Richard Martinez,South,Small Business,5,315.773,2025-08-18,135,At-Risk
+CUST-1452,Daniel Brown,West,Consumer,4,752.9165,2025-02-09,325,At-Risk
+CUST-1453,Linda Taylor,North,Corporate,8,2138.2145,2025-09-22,100,Loyal Customers
+CUST-1454,Margaret Wilson,North,Corporate,2,956.0600000000001,2025-12-04,27,Potential Loyalists
+CUST-1455,Lisa Brown,East,Corporate,8,1416.299,2025-12-03,28,Loyal Customers
+CUST-1456,Christopher Jones,North,Small Business,5,2107.428,2025-02-08,326,At-Risk
+CUST-1457,Joseph Lopez,South,Small Business,6,1111.886,2025-11-08,53,Loyal Customers
+CUST-1458,Margaret Miller,South,Small Business,9,2409.4215,2025-09-26,96,Loyal Customers
+CUST-1459,Barbara Wilson,South,Small Business,3,1249.8725,2025-01-30,335,At-Risk
+CUST-1460,Linda Moore,Midwest,Small Business,3,2218.743,2025-07-27,157,At-Risk
+CUST-1461,Margaret Martinez,Midwest,Small Business,3,423.99,2025-08-20,133,At-Risk
+CUST-1462,Elizabeth Johnson,West,Consumer,1,431.973,2025-04-21,254,Lost Customers
+CUST-1463,Jessica Martin,East,Consumer,3,659.96,2025-08-03,150,At-Risk
+CUST-1464,Margaret Jackson,Unknown,Corporate,6,1070.451,2025-06-19,195,At-Risk
+CUST-1465,James Jackson,South,Consumer,5,923.8725,2025-08-30,123,At-Risk
+CUST-1466,Thomas Martinez,West,Small Business,5,723.524,2025-05-11,234,At-Risk
+CUST-1467,John Moore,East,Corporate,4,2624.365,2025-06-12,202,At-Risk
+CUST-1468,Thomas Miller,Midwest,Corporate,4,371.467,2024-10-05,452,At-Risk
+CUST-1469,Christopher Williams,South,Consumer,6,1111.8975,2025-07-24,160,At-Risk
+CUST-1470,Sandra Wilson,Midwest,Corporate,5,956.352,2025-10-12,80,Loyal Customers
+CUST-1471,Lisa Garcia,South,Consumer,6,345.792,2025-05-23,222,At-Risk
+CUST-1472,Jessica Lopez,East,Corporate,7,1791.5095000000001,2025-12-11,20,Champions
+CUST-1473,Lisa Rodriguez,North,Corporate,4,1774.8539999999998,2025-12-08,23,Loyal Customers
+CUST-1474,Thomas Williams,Unknown,Corporate,7,409.00849999999997,2025-12-07,24,Loyal Customers
+CUST-1475,Thomas Lopez,South,Consumer,5,2662.542,2025-11-06,55,Champions
+CUST-1476,Matthew Brown,North,Small Business,9,3041.7275,2025-11-13,48,Champions
+CUST-1477,James Johnson,South,Corporate,5,1374.906,2025-11-15,46,Loyal Customers
+CUST-1478,Richard Jones,Midwest,Small Business,8,1071.7060000000001,2025-12-11,20,Loyal Customers
+CUST-1479,Susan Davis,East,Consumer,3,4072.4399999999996,2025-02-17,317,At-Risk
+CUST-1480,Barbara Brown,South,Small Business,6,589.064,2025-10-23,69,Loyal Customers
+CUST-1481,Richard Williams,East,Consumer,4,328.5575,2024-09-24,463,At-Risk
+CUST-1482,Joseph Smith,Midwest,Small Business,7,698.8,2025-12-07,24,Loyal Customers
+CUST-1483,Linda Anderson,South,Small Business,3,389.96,2025-06-20,194,At-Risk
+CUST-1484,Robert Smith,South,Corporate,3,346.9835,2025-01-29,336,At-Risk
+CUST-1485,Anthony Smith,Unknown,Small Business,4,2243.0270000000005,2025-12-28,3,Loyal Customers
+CUST-1486,Patricia Miller,West,Consumer,5,3010.391,2025-08-19,134,At-Risk
+CUST-1488,Joseph Williams,South,Corporate,3,700.4380000000001,2025-06-14,200,At-Risk
+CUST-1489,Charles Jackson,South,Corporate,2,228.8,2025-06-17,197,Lost Customers
+CUST-1490,Margaret Hernandez,East,Corporate,4,766.936,2025-12-13,18,Loyal Customers
+CUST-1491,Linda Williams,Midwest,Consumer,7,2285.475,2025-12-07,24,Champions
+CUST-1492,Jennifer Anderson,North,Corporate,3,407.9745,2025-09-19,103,Loyal Customers
+CUST-1493,Joseph Martinez,North,Small Business,5,994.9245,2025-11-07,54,Loyal Customers
+CUST-1494,Anthony Martin,South,Small Business,9,1202.315,2025-12-18,13,Loyal Customers
+CUST-1495,Barbara Gonzalez,East,Consumer,9,870.445,2025-12-21,10,Loyal Customers
+CUST-1496,Richard Anderson,South,Corporate,2,159.96,2025-12-08,23,Potential Loyalists
+CUST-1497,Betty Jones,South,Consumer,3,298.93399999999997,2025-08-24,129,At-Risk
+CUST-1498,Barbara Williams,North,Consumer,5,3031.3375,2025-07-20,164,At-Risk
+CUST-1499,Donald Anderson,East,Consumer,4,390.983,2025-10-31,61,Loyal Customers
+CUST-1500,Mary Garcia,West,Consumer,8,1981.3275,2025-09-03,119,Loyal Customers
+CUST-1501,Nancy Wilson,South,Corporate,6,2560.6980000000003,2025-05-06,239,At-Risk
+CUST-1502,Donald Jones,Midwest,Small Business,3,831.943,2025-10-22,70,Loyal Customers
+CUST-1503,Jessica Wilson,North,Corporate,6,1548.3425,2025-08-03,150,At-Risk
+CUST-1504,Robert Wilson,South,Small Business,7,1277.5475,2025-06-27,187,At-Risk
+CUST-1505,Richard Lopez,East,Small Business,3,2125.877,2025-10-14,78,Loyal Customers
+CUST-1506,Richard Rodriguez,Midwest,Consumer,6,1900.849,2025-11-10,51,Champions
+CUST-1507,Mary Thomas,Midwest,Consumer,7,1815.942,2025-12-11,20,Champions
+CUST-1508,Linda Davis,North,Small Business,8,3497.3155,2025-10-29,63,Loyal Customers
+CUST-1509,Barbara Garcia,East,Small Business,11,1372.7884999999999,2025-12-17,14,Loyal Customers
+CUST-1510,Sandra Jackson,East,Small Business,6,738.4014999999999,2025-10-06,86,Loyal Customers
+CUST-1511,Charles Miller,Midwest,Consumer,1,35.982,2024-11-06,420,Lost Customers
+CUST-1512,Mary Williams,South,Small Business,7,669.0055,2025-07-23,161,At-Risk
+CUST-1513,James Hernandez,South,Small Business,8,871.511,2025-11-15,46,Loyal Customers
+CUST-1514,Sandra Hernandez,Midwest,Consumer,4,151.7095,2025-11-24,37,Loyal Customers
+CUST-1515,Margaret Taylor,East,Small Business,7,1237.6235000000001,2025-12-10,21,Loyal Customers
+CUST-1516,Charles Brown,South,Small Business,5,1335.5415,2025-09-25,97,Loyal Customers
+CUST-1517,Betty Thomas,Midwest,Small Business,5,854.9245,2025-09-11,111,Loyal Customers
+CUST-1518,Linda Jackson,East,Small Business,2,614.7209999999999,2025-04-01,274,Lost Customers
+CUST-1519,Robert Garcia,Midwest,Small Business,5,1271.5005,2025-05-09,236,At-Risk
+CUST-1520,Jennifer Martin,South,Small Business,3,581.9345,2025-12-11,20,Loyal Customers
+CUST-1521,Sandra Thomas,North,Corporate,8,1889.8775,2025-12-22,9,Champions
+CUST-1523,James Rodriguez,North,Corporate,4,485.491,2025-05-11,234,At-Risk
+CUST-1524,Lisa Smith,West,Corporate,4,602.6975,2025-12-21,10,Loyal Customers
+CUST-1525,Donald Gonzalez,North,Small Business,4,171.98,2025-10-19,73,Loyal Customers
+CUST-1526,Matthew Davis,North,Consumer,4,1816.879,2025-11-23,38,Loyal Customers
+CUST-1527,William Brown,West,Small Business,4,439.134,2025-12-20,11,Loyal Customers
+CUST-1528,Sarah Williams,West,Consumer,3,312.082,2025-04-15,260,At-Risk
+CUST-1529,Christopher Garcia,South,Consumer,4,459.90000000000003,2025-08-30,123,At-Risk
+CUST-1530,Michael Miller,Midwest,Small Business,8,2110.6285000000003,2025-12-14,17,Champions
+CUST-1531,Elizabeth Davis,Midwest,Corporate,4,513.4135,2025-02-21,313,At-Risk
+CUST-1532,Mary Lopez,North,Small Business,5,1192.3835,2025-08-04,149,At-Risk
+CUST-1533,Karen Thomas,South,Small Business,3,928.1320000000001,2025-01-19,346,At-Risk
+CUST-1534,John Thomas,West,Corporate,3,539.95,2025-12-09,22,Loyal Customers
+CUST-1535,William Williams,South,Corporate,3,926.3705,2025-08-07,146,At-Risk
+CUST-1536,Jennifer Anderson,West,Consumer,7,4402.5715,2025-01-25,340,At-Risk
+CUST-1537,Charles Johnson,Unknown,Consumer,1,276.2075,2025-09-13,109,Lost Customers
+CUST-1538,Barbara Moore,Midwest,Small Business,7,1332.672,2025-07-31,153,At-Risk
+CUST-1539,Anthony Gonzalez,Midwest,Corporate,3,254.9415,2025-07-05,179,At-Risk
+CUST-1540,Donald Davis,West,Consumer,5,937.726,2025-11-03,58,Loyal Customers
+CUST-1541,Charles Taylor,Midwest,Consumer,3,795.95,2025-04-23,252,At-Risk
+CUST-1542,Jennifer Garcia,South,Corporate,7,1030.9244999999999,2025-07-07,177,At-Risk
+CUST-1543,Nancy Wilson,South,Corporate,3,769.9200000000001,2025-05-31,214,At-Risk
+CUST-1544,Sandra Williams,West,Corporate,7,1023.263,2025-03-12,294,At-Risk
+CUST-1545,Thomas Anderson,Midwest,Small Business,4,2551.4195,2025-11-05,56,Loyal Customers
+CUST-1546,Patricia Wilson,Midwest,Consumer,6,609.708,2025-11-01,60,Loyal Customers
+CUST-1547,Charles Brown,East,Corporate,5,1361.127,2025-07-15,169,At-Risk
+CUST-1548,Christopher Thomas,North,Corporate,7,676.383,2025-12-03,28,Loyal Customers
+CUST-1549,Robert Martin,West,Corporate,2,970.8715,2025-10-30,62,Potential Loyalists
+CUST-1550,Daniel Davis,East,Consumer,5,2107.1915,2025-11-07,54,Champions
+CUST-1551,Anthony Martinez,Unknown,Consumer,2,246.455,2025-02-11,323,Lost Customers
+CUST-1552,Elizabeth Anderson,East,Corporate,7,694.212,2025-12-20,11,Loyal Customers
+CUST-1553,Christopher Williams,West,Corporate,2,976.768,2025-10-16,76,Potential Loyalists
+CUST-1554,Margaret Lopez,South,Corporate,2,244.17450000000002,2025-12-05,26,Potential Loyalists
+CUST-1555,Richard Jones,Midwest,Consumer,2,139.475,2025-03-01,305,Lost Customers
+CUST-1556,Donald Miller,North,Consumer,5,2423.0495,2025-12-09,22,Champions
+CUST-1557,Daniel Miller,Midwest,Small Business,1,119.99,2024-02-27,673,Lost Customers
+CUST-1558,Nancy Smith,Midwest,Consumer,8,3565.83,2025-07-28,156,At-Risk
+CUST-1559,Charles Moore,East,Small Business,9,998.4175,2025-11-25,36,Loyal Customers
+CUST-1560,Elizabeth Smith,Midwest,Consumer,9,2944.4975,2025-08-25,128,At-Risk
+CUST-1561,Linda Miller,Midwest,Small Business,6,1455.6950000000002,2025-12-17,14,Loyal Customers
+CUST-1562,Jessica Jones,North,Corporate,7,4946.062,2025-11-08,53,Champions
+CUST-1563,Betty Martinez,Unknown,Corporate,1,0.0,2024-09-15,472,Lost Customers
+CUST-1564,Margaret Lopez,West,Small Business,5,2646.922,2025-11-13,48,Champions
+CUST-1565,Anthony Martin,North,Small Business,5,1423.95,2025-06-19,195,At-Risk
+CUST-1566,Sarah Martin,Unknown,Corporate,3,4014.8725,2025-03-17,289,At-Risk
+CUST-1567,David Rodriguez,East,Small Business,5,871.1585,2025-04-09,266,At-Risk
+CUST-1568,Elizabeth Miller,South,Small Business,4,1124.9035,2025-11-20,41,Loyal Customers
+CUST-1569,Nancy Hernandez,North,Corporate,1,153.0,2024-06-19,560,Lost Customers
+CUST-1570,William Wilson,North,Small Business,4,1392.365,2025-09-24,98,Loyal Customers
+CUST-1571,Anthony Miller,South,Small Business,10,2020.1125,2025-07-26,158,At-Risk
+CUST-1572,Betty Thomas,East,Corporate,4,999.9515,2025-12-12,19,Loyal Customers
+CUST-1573,Anthony Moore,West,Small Business,4,893.927,2025-05-16,229,At-Risk
+CUST-1574,Lisa Moore,Unknown,Small Business,5,690.3615,2025-03-13,293,At-Risk
+CUST-1575,Linda Lopez,West,Corporate,4,1312.4075,2025-11-02,59,Loyal Customers
+CUST-1576,Charles Martinez,West,Small Business,5,977.912,2025-02-26,308,At-Risk
+CUST-1577,Charles Martin,Midwest,Small Business,6,843.6845,2024-12-27,369,At-Risk
+CUST-1578,Thomas Martinez,South,Corporate,5,1748.21,2025-12-14,17,Champions
+CUST-1579,Charles Anderson,South,Corporate,5,3240.7825000000003,2024-12-07,389,At-Risk
+CUST-1580,Christopher Garcia,North,Corporate,6,767.9305,2025-11-08,53,Loyal Customers
+CUST-1581,Matthew Garcia,West,Consumer,5,717.903,2025-10-17,75,Loyal Customers
+CUST-1582,Susan Wilson,West,Consumer,10,3028.722,2025-10-20,72,Loyal Customers
+CUST-1583,Michael Lopez,Midwest,Consumer,6,1476.298,2025-10-12,80,Loyal Customers
+CUST-1584,James Davis,East,Consumer,3,347.93600000000004,2025-06-22,192,At-Risk
+CUST-1585,Thomas Jackson,North,Corporate,6,422.746,2025-08-25,128,At-Risk
+CUST-1586,Lisa Taylor,West,Consumer,3,1493.923,2025-12-13,18,Loyal Customers
+CUST-1587,Donald Thomas,South,Consumer,8,1650.6895,2025-08-30,123,At-Risk
+CUST-1588,Linda Jones,Midwest,Consumer,9,1870.7715,2025-07-13,171,At-Risk
+CUST-1589,Barbara Johnson,East,Small Business,8,1269.7085,2025-11-01,60,Loyal Customers
+CUST-1590,Karen Johnson,North,Small Business,9,1958.902,2025-05-28,217,At-Risk
+CUST-1591,Susan Anderson,East,Small Business,4,765.2339999999999,2025-11-24,37,Loyal Customers
+CUST-1592,Michael Smith,North,Small Business,9,3531.852,2025-11-04,57,Champions
+CUST-1593,Karen Martin,North,Small Business,2,499.945,2025-04-09,266,Lost Customers
+CUST-1594,Patricia Martinez,West,Small Business,6,1123.188,2025-12-25,6,Loyal Customers
+CUST-1595,Matthew Rodriguez,East,Corporate,5,539.46,2025-11-13,48,Loyal Customers
+CUST-1596,Jennifer Johnson,West,Consumer,6,983.346,2025-07-02,182,At-Risk
+CUST-1597,James Williams,Unknown,Consumer,3,211.57999999999998,2025-09-14,108,Loyal Customers
+CUST-1598,Matthew Taylor,North,Small Business,3,479.7,2025-10-17,75,Loyal Customers
+CUST-1599,Joseph Martinez,North,Consumer,5,373.94550000000004,2025-09-10,112,Loyal Customers
+CUST-1600,Barbara Hernandez,North,Consumer,5,1164.665,2025-05-03,242,At-Risk
+CUST-1601,Nancy Garcia,Midwest,Small Business,5,311.3515,2025-05-12,233,At-Risk
+CUST-1602,Barbara Hernandez,West,Corporate,4,276.644,2024-11-11,415,At-Risk
+CUST-1603,Daniel Thomas,South,Consumer,4,840.242,2025-06-22,192,At-Risk
+CUST-1604,Margaret Garcia,West,Small Business,7,2964.9155,2025-11-26,35,Champions
+CUST-1605,Jennifer Martin,Midwest,Small Business,5,1960.3029999999999,2025-12-30,1,Champions
+CUST-1606,Jessica Thomas,West,Consumer,3,2731.962,2025-02-12,322,At-Risk
+CUST-1607,Christopher Hernandez,Unknown,Small Business,8,1383.7555,2025-08-09,144,At-Risk
+CUST-1608,Lisa Jackson,East,Small Business,9,1493.8085,2025-10-23,69,Loyal Customers
+CUST-1609,Patricia Wilson,West,Small Business,6,1202.6875,2025-11-20,41,Loyal Customers
+CUST-1610,Christopher Gonzalez,Midwest,Consumer,9,1350.0140000000001,2025-12-19,12,Loyal Customers
+CUST-1611,Sandra Garcia,West,Consumer,5,413.93899999999996,2025-11-10,51,Loyal Customers
+CUST-1612,David Davis,North,Consumer,4,323.884,2025-02-28,306,At-Risk
+CUST-1613,Christopher Gonzalez,North,Corporate,3,1716.17,2025-09-17,105,Loyal Customers
+CUST-1614,Joseph Williams,East,Corporate,5,733.106,2025-12-22,9,Loyal Customers
+CUST-1615,James Brown,Midwest,Consumer,4,1523.911,2025-11-28,33,Loyal Customers
+CUST-1616,Betty Martin,East,Small Business,3,441.4605,2025-05-10,235,At-Risk
+CUST-1617,Christopher Anderson,North,Corporate,4,161.4915,2025-05-14,231,At-Risk
+CUST-1618,Sarah Martin,Unknown,Small Business,4,341.363,2025-11-03,58,Loyal Customers
+CUST-1619,Patricia Brown,North,Corporate,6,1019.555,2025-07-13,171,At-Risk
+CUST-1620,Betty Martinez,North,Consumer,3,1738.916,2025-08-30,123,At-Risk
+CUST-1621,Robert Wilson,South,Consumer,3,909.4175,2024-10-25,432,At-Risk
+CUST-1622,Michael Anderson,East,Corporate,5,974.712,2025-10-25,67,Loyal Customers
+CUST-1623,Sandra Jackson,West,Small Business,4,417.94599999999997,2025-12-25,6,Loyal Customers
+CUST-1624,Robert Thomas,North,Corporate,4,839.976,2025-11-01,60,Loyal Customers
+CUST-1625,Jessica Taylor,Midwest,Small Business,5,582.9095,2025-05-18,227,At-Risk
+CUST-1626,Patricia Gonzalez,East,Corporate,6,1177.858,2024-10-06,451,At-Risk
+CUST-1627,Karen Davis,East,Consumer,3,489.544,2025-10-29,63,Loyal Customers
+CUST-1628,Susan Martin,Midwest,Small Business,10,2978.041,2025-10-10,82,Loyal Customers
+CUST-1629,Margaret Hernandez,Unknown,Consumer,3,455.9359999999999,2025-07-03,181,At-Risk
+CUST-1630,Karen Martinez,South,Small Business,5,410.424,2025-10-29,63,Loyal Customers
+CUST-1631,Thomas Moore,North,Small Business,1,699.98,2024-12-18,378,Lost Customers
+CUST-1632,Charles Jackson,West,Small Business,3,400.8,2025-11-17,44,Loyal Customers
+CUST-1633,Elizabeth Wilson,North,Corporate,5,563.9110000000001,2025-11-16,45,Loyal Customers
+CUST-1634,Mary Johnson,South,Small Business,3,997.928,2025-01-08,357,At-Risk
+CUST-1635,Robert Johnson,South,Consumer,4,413.153,2025-04-07,268,At-Risk
+CUST-1636,Anthony Anderson,Midwest,Small Business,2,1539.98,2025-05-07,238,Lost Customers
+CUST-1637,Sarah Gonzalez,East,Small Business,4,740.368,2025-11-08,53,Loyal Customers
+CUST-1638,Sandra Gonzalez,East,Consumer,4,796.51,2025-07-03,181,At-Risk
+CUST-1639,Lisa Rodriguez,South,Small Business,6,954.6075,2025-09-26,96,Loyal Customers
+CUST-1640,Barbara Jackson,South,Consumer,5,1564.814,2025-10-21,71,Loyal Customers
+CUST-1641,Joseph Garcia,South,Small Business,5,1114.8975,2025-08-15,138,At-Risk
+CUST-1642,Patricia Gonzalez,Midwest,Consumer,4,444.96,2025-10-24,68,Loyal Customers
+CUST-1643,Charles Rodriguez,West,Consumer,6,610.3199999999999,2025-11-06,55,Loyal Customers
+CUST-1644,Robert Hernandez,Midwest,Corporate,6,1184.509,2025-10-18,74,Loyal Customers
+CUST-1645,Betty Jackson,East,Consumer,9,1117.438,2025-12-25,6,Loyal Customers
+CUST-1646,Thomas Williams,West,Small Business,2,51.992,2025-08-31,122,Lost Customers
+CUST-1647,John Lopez,Unknown,Corporate,4,4318.919,2025-11-24,37,Loyal Customers
+CUST-1648,Elizabeth Miller,Midwest,Small Business,1,382.4575,2025-02-02,332,Lost Customers
+CUST-1649,James Brown,South,Small Business,5,505.17150000000004,2025-07-27,157,At-Risk
+CUST-1650,Linda Johnson,West,Corporate,9,3526.7085,2025-10-04,88,Loyal Customers
+CUST-1651,Sarah Martinez,Midwest,Small Business,4,259.59,2025-11-24,37,Loyal Customers
+CUST-1652,Joseph Thomas,South,Small Business,9,3721.8395,2025-12-11,20,Champions
+CUST-1653,Patricia Garcia,Midwest,Consumer,5,1653.0205,2025-10-25,67,Loyal Customers
+CUST-1654,John Miller,Unknown,Consumer,5,423.756,2025-10-24,68,Loyal Customers
+CUST-1655,Sarah Wilson,Unknown,Consumer,5,713.858,2025-05-11,234,At-Risk
+CUST-1656,Daniel Hernandez,North,Corporate,5,409.62,2025-08-29,124,At-Risk
+CUST-1657,John Jackson,West,Corporate,10,1720.0735,2025-10-05,87,Loyal Customers
+CUST-1658,Richard Wilson,Unknown,Small Business,7,4180.077,2025-06-27,187,At-Risk
+CUST-1659,Christopher Martin,Midwest,Small Business,2,255.144,2025-05-21,224,Lost Customers
+CUST-1660,Barbara Taylor,East,Consumer,3,807.3439999999999,2025-11-20,41,Loyal Customers
+CUST-1661,Matthew Anderson,North,Consumer,4,1330.9315000000001,2025-09-14,108,Loyal Customers
+CUST-1662,Linda Jones,East,Consumer,8,1595.981,2025-11-17,44,Champions
+CUST-1663,Nancy Lopez,Midwest,Consumer,6,1639.8685,2025-09-08,114,Loyal Customers
+CUST-1664,Mary Smith,Midwest,Consumer,6,630.589,2025-06-25,189,At-Risk
+CUST-1665,Michael Lopez,Midwest,Consumer,9,1357.8580000000002,2025-12-29,2,Loyal Customers
+CUST-1666,Linda Martin,North,Small Business,8,1995.651,2025-09-09,113,Loyal Customers
+CUST-1667,Margaret Johnson,West,Small Business,6,1373.835,2025-08-07,146,At-Risk
+CUST-1668,Elizabeth Williams,Midwest,Corporate,9,5037.0115,2025-11-17,44,Champions
+CUST-1669,Robert Davis,North,Corporate,3,203.5575,2025-11-23,38,Loyal Customers
+CUST-1670,Joseph Hernandez,Midwest,Small Business,4,1523.433,2025-01-26,339,At-Risk
+CUST-1671,Barbara Hernandez,North,Consumer,2,712.4555,2025-11-18,43,Potential Loyalists
+CUST-1672,Daniel Wilson,South,Small Business,3,735.921,2025-06-29,185,At-Risk
+CUST-1673,Donald Thomas,East,Small Business,4,361.96,2025-03-16,290,At-Risk
+CUST-1674,Jennifer Martin,South,Consumer,6,902.8979999999999,2025-12-08,23,Loyal Customers
+CUST-1675,Lisa Williams,Midwest,Consumer,6,587.3125,2025-11-25,36,Loyal Customers
+CUST-1676,Charles Gonzalez,North,Corporate,7,476.1775,2025-07-12,172,At-Risk
+CUST-1677,Donald Moore,East,Consumer,6,1102.7179999999998,2025-12-15,16,Loyal Customers
+CUST-1678,Lisa Martinez,Midwest,Corporate,2,236.991,2025-12-24,7,Potential Loyalists
+CUST-1679,Thomas Smith,Unknown,Small Business,4,436.40099999999995,2024-10-27,430,At-Risk
+CUST-1680,Joseph Garcia,Unknown,Small Business,6,1431.0895,2025-11-17,44,Loyal Customers
+CUST-1681,Barbara Johnson,South,Corporate,2,396.75,2025-10-30,62,Potential Loyalists
+CUST-1682,Linda Johnson,East,Corporate,6,881.7099999999999,2025-12-08,23,Loyal Customers
+CUST-1683,Donald Johnson,East,Small Business,1,0.0,2025-11-03,58,Potential Loyalists
+CUST-1684,Christopher Rodriguez,Midwest,Small Business,6,546.4315,2025-11-22,39,Loyal Customers
+CUST-1685,Richard Gonzalez,North,Corporate,4,433.3605,2025-12-19,12,Loyal Customers
+CUST-1686,Sandra Davis,East,Corporate,2,1073.949,2024-11-22,404,Lost Customers
+CUST-1687,James Taylor,South,Consumer,4,252.97,2025-05-15,230,At-Risk
+CUST-1688,Christopher Rodriguez,South,Small Business,7,448.9,2025-07-09,175,At-Risk
+CUST-1689,Nancy Davis,North,Small Business,5,621.902,2025-11-13,48,Loyal Customers
+CUST-1690,Jessica Miller,West,Consumer,5,961.1,2025-05-25,220,At-Risk
+CUST-1691,Robert Jackson,Unknown,Consumer,5,638.361,2025-11-16,45,Loyal Customers
+CUST-1692,Robert Johnson,Midwest,Small Business,1,689.97,2025-10-18,74,Potential Loyalists
+CUST-1693,Christopher Smith,Unknown,Consumer,1,157.5,2025-11-27,34,Potential Loyalists
+CUST-1694,Joseph Martin,South,Corporate,5,1160.9470000000001,2025-03-15,291,At-Risk
+CUST-1695,Robert Jackson,Midwest,Small Business,2,899.964,2025-05-29,216,Lost Customers
+CUST-1696,Jennifer Hernandez,Midwest,Consumer,2,673.971,2024-08-08,510,Lost Customers
+CUST-1697,Richard Jones,Midwest,Small Business,3,1479.9360000000001,2025-06-19,195,At-Risk
+CUST-1698,Anthony Jones,West,Small Business,4,147.78,2025-12-10,21,Loyal Customers
+CUST-1699,Donald Moore,North,Small Business,1,323.973,2025-04-02,273,Lost Customers
+CUST-1700,Donald Martin,Unknown,Corporate,4,739.432,2025-12-29,2,Loyal Customers
+CUST-1701,Susan Lopez,Midwest,Consumer,4,322.2,2025-07-20,164,At-Risk
+CUST-1702,Betty Gonzalez,Midwest,Corporate,3,440.952,2025-10-14,78,Loyal Customers
+CUST-1703,William Thomas,East,Small Business,11,805.038,2025-12-28,3,Loyal Customers
+CUST-1704,William Miller,North,Small Business,5,776.6675,2025-10-22,70,Loyal Customers
+CUST-1705,Thomas Smith,East,Corporate,6,1735.026,2025-10-25,67,Loyal Customers
+CUST-1706,Robert Wilson,East,Corporate,7,1729.8625,2025-10-07,85,Loyal Customers
+CUST-1707,Barbara Martin,West,Corporate,8,1477.8215,2025-09-23,99,Loyal Customers
+CUST-1708,Betty Moore,Midwest,Corporate,7,712.583,2025-09-26,96,Loyal Customers
+CUST-1709,Elizabeth Jackson,West,Consumer,4,1101.696,2025-12-05,26,Loyal Customers
+CUST-1710,Patricia Davis,South,Consumer,4,158.93749999999997,2025-05-28,217,At-Risk
+CUST-1711,Richard Hernandez,Unknown,Consumer,8,3405.2685,2025-09-13,109,Loyal Customers
+CUST-1712,Richard Smith,West,Corporate,1,586.4745,2025-12-08,23,Potential Loyalists
+CUST-1713,John Rodriguez,Midwest,Small Business,5,1389.477,2025-01-04,361,At-Risk
+CUST-1714,Sandra Gonzalez,East,Small Business,7,3586.596,2025-10-05,87,Loyal Customers
+CUST-1715,Matthew Garcia,North,Small Business,5,3351.904,2025-12-14,17,Champions
+CUST-1716,Elizabeth Miller,Midwest,Small Business,7,1368.0755,2025-08-06,147,At-Risk
+CUST-1717,Karen Garcia,South,Consumer,2,620.4545,2025-10-06,86,Potential Loyalists
+CUST-1718,John Rodriguez,Unknown,Corporate,3,611.9680000000001,2025-08-28,125,At-Risk
+CUST-1719,Michael Taylor,North,Small Business,3,354.96,2025-12-06,25,Loyal Customers
+CUST-1720,Lisa Moore,East,Consumer,6,1111.4775,2025-12-10,21,Loyal Customers
+CUST-1721,Michael Anderson,North,Consumer,8,1442.0349999999999,2025-10-26,66,Loyal Customers
+CUST-1722,Thomas Brown,East,Consumer,3,1129.95,2025-05-01,244,At-Risk
+CUST-1723,William Moore,East,Corporate,2,325.764,2025-09-26,96,Lost Customers
+CUST-1724,Charles Thomas,East,Small Business,6,1074.17,2025-10-21,71,Loyal Customers
+CUST-1725,Donald Jackson,North,Consumer,2,414.2745,2025-08-24,129,Lost Customers
+CUST-1726,Christopher Davis,East,Corporate,2,335.2,2025-08-29,124,Lost Customers
+CUST-1727,Sarah Smith,South,Consumer,1,104.5,2024-09-21,466,Lost Customers
+CUST-1728,Nancy Hernandez,West,Corporate,6,1121.4115,2025-11-14,47,Loyal Customers
+CUST-1729,Donald Jackson,Unknown,Corporate,5,2410.354,2025-08-25,128,At-Risk
+CUST-1730,Linda Davis,South,Consumer,6,767.594,2025-11-19,42,Loyal Customers
+CUST-1731,Barbara Jones,North,Small Business,5,1842.542,2025-03-21,285,At-Risk
+CUST-1732,Karen Smith,North,Corporate,4,778.716,2025-05-15,230,At-Risk
+CUST-1733,David Thomas,East,Consumer,5,1184.7140000000002,2025-08-24,129,At-Risk
+CUST-1734,William Gonzalez,South,Small Business,6,1768.8285,2025-10-12,80,Loyal Customers
+CUST-1735,Jessica Moore,West,Consumer,4,359.135,2025-11-04,57,Loyal Customers
+CUST-1736,Patricia Taylor,North,Small Business,2,153.6,2025-10-02,90,Potential Loyalists
+CUST-1737,Richard Jackson,Midwest,Consumer,2,71.964,2024-06-19,560,Lost Customers
+CUST-1738,William Davis,East,Consumer,3,404.7575,2025-10-29,63,Loyal Customers
+CUST-1739,Susan Miller,East,Corporate,4,642.4414999999999,2025-04-30,245,At-Risk
+CUST-1740,Joseph Garcia,Unknown,Consumer,3,547.9449999999999,2025-09-28,94,Loyal Customers
+CUST-1741,Betty Davis,South,Small Business,4,1139.968,2024-12-29,367,At-Risk
+CUST-1742,Jessica Smith,South,Small Business,6,1469.3705,2025-05-03,242,At-Risk
+CUST-1743,Lisa Hernandez,East,Small Business,6,1322.0025,2025-08-04,149,At-Risk
+CUST-1744,Richard Brown,South,Corporate,7,815.872,2025-12-25,6,Loyal Customers
+CUST-1745,Patricia Anderson,East,Small Business,5,1941.34,2025-12-20,11,Champions
+CUST-1746,Sandra Rodriguez,North,Small Business,7,2021.5595,2025-11-13,48,Champions
+CUST-1747,Michael Jackson,Midwest,Corporate,4,581.1955,2025-09-28,94,Loyal Customers
+CUST-1748,David Taylor,West,Corporate,6,405.48,2025-10-19,73,Loyal Customers
+CUST-1749,Elizabeth Anderson,South,Corporate,6,2202.9665,2025-11-21,40,Champions
+CUST-1750,Christopher Martin,North,Corporate,3,646.928,2025-10-13,79,Loyal Customers
+CUST-1751,David Hernandez,East,Small Business,10,1943.4255,2025-12-26,5,Champions
+CUST-1752,William Anderson,Midwest,Corporate,2,266.364,2025-03-12,294,Lost Customers
+CUST-1753,Jennifer Garcia,South,Corporate,8,3926.661,2025-12-12,19,Champions
+CUST-1754,Michael Garcia,North,Small Business,4,617.711,2025-06-03,211,At-Risk
+CUST-1755,James Gonzalez,North,Small Business,5,281.62149999999997,2025-07-07,177,At-Risk
+CUST-1756,John Gonzalez,East,Small Business,6,1287.943,2025-06-22,192,At-Risk
+CUST-1757,Robert Taylor,North,Corporate,2,41.989999999999995,2025-12-13,18,Potential Loyalists
+CUST-1758,Margaret Thomas,East,Corporate,7,2321.8940000000002,2025-11-15,46,Champions
+CUST-1759,Daniel Moore,West,Small Business,8,536.37,2025-07-26,158,At-Risk
+CUST-1760,Donald Jackson,Unknown,Corporate,2,3382.5525,2024-08-30,488,Lost Customers
+CUST-1761,Jessica Moore,West,Corporate,9,1194.5695,2025-10-19,73,Loyal Customers
+CUST-1762,William Jones,Midwest,Corporate,4,964.281,2025-10-21,71,Loyal Customers
+CUST-1763,Jessica Moore,West,Corporate,2,159.95,2024-06-18,561,Lost Customers
+CUST-1764,Matthew Wilson,South,Small Business,6,308.961,2025-12-05,26,Loyal Customers
+CUST-1765,Michael Wilson,West,Consumer,6,550.5375,2025-04-18,257,At-Risk
+CUST-1767,Matthew Martin,East,Small Business,10,3740.5155,2025-06-12,202,At-Risk
+CUST-1768,Betty Rodriguez,South,Corporate,3,1241.544,2025-02-17,317,At-Risk
+CUST-1769,Christopher Anderson,Midwest,Consumer,3,172.8,2025-09-10,112,Loyal Customers
+CUST-1770,James Jones,North,Consumer,7,3554.2955,2025-07-11,173,At-Risk
+CUST-1771,William Jones,North,Consumer,3,396.93,2025-01-04,361,At-Risk
+CUST-1772,James Thomas,East,Corporate,5,4192.3545,2025-07-14,170,At-Risk
+CUST-1773,Daniel Johnson,South,Corporate,5,1360.827,2025-06-23,191,At-Risk
+CUST-1774,John Moore,East,Consumer,4,979.4975000000001,2025-08-28,125,At-Risk
+CUST-1775,Matthew Davis,South,Consumer,2,581.922,2024-11-16,410,Lost Customers
+CUST-1776,Joseph Brown,West,Small Business,6,650.325,2025-11-10,51,Loyal Customers
+CUST-1777,Sandra Hernandez,North,Small Business,6,1332.821,2025-07-19,165,At-Risk
+CUST-1778,Patricia Rodriguez,South,Consumer,2,53.6905,2025-03-19,287,Lost Customers
+CUST-1779,Michael Brown,East,Consumer,4,534.177,2025-09-10,112,Loyal Customers
+CUST-1780,Charles Brown,North,Small Business,7,1190.2645,2025-12-08,23,Loyal Customers
+CUST-1781,Daniel Martin,North,Consumer,6,768.884,2025-03-12,294,At-Risk
+CUST-1782,John Martin,Unknown,Consumer,7,1461.558,2025-04-04,271,At-Risk
+CUST-1783,Christopher Jones,South,Consumer,2,348.938,2025-04-30,245,Lost Customers
+CUST-1784,Sarah Lopez,South,Small Business,10,2037.7775,2025-08-05,148,At-Risk
+CUST-1785,Barbara Jones,West,Corporate,5,1809.892,2025-09-01,121,At-Risk
+CUST-1786,Elizabeth Moore,Midwest,Small Business,7,1227.418,2025-12-16,15,Loyal Customers
+CUST-1787,David Anderson,Midwest,Consumer,3,218.0,2025-09-04,118,Loyal Customers
+CUST-1788,Robert Anderson,Midwest,Corporate,2,1021.962,2025-06-17,197,Lost Customers
+CUST-1789,Matthew Taylor,North,Corporate,7,1977.0855000000001,2025-11-25,36,Champions
+CUST-1790,Linda Hernandez,Midwest,Consumer,2,183.60000000000002,2025-11-16,45,Potential Loyalists
+CUST-1791,Nancy Thomas,Midwest,Corporate,5,2320.295,2025-12-28,3,Champions
+CUST-1792,Christopher Hernandez,Unknown,Consumer,2,310.4,2025-11-12,49,Potential Loyalists
+CUST-1793,Jennifer Johnson,South,Consumer,5,657.672,2025-11-20,41,Loyal Customers
+CUST-1794,Christopher Gonzalez,Midwest,Small Business,5,1650.3785,2025-09-01,121,At-Risk
+CUST-1795,Mary Lopez,North,Consumer,6,1921.5059999999999,2025-09-16,106,Loyal Customers
+CUST-1796,Jessica Williams,North,Small Business,2,124.9545,2025-12-22,9,Potential Loyalists
+CUST-1797,Anthony Lopez,Midwest,Small Business,2,203.37,2025-10-06,86,Potential Loyalists
+CUST-1798,Lisa Williams,South,Consumer,5,1501.8870000000002,2025-12-04,27,Champions
+CUST-1799,Lisa Davis,South,Small Business,4,1028.617,2025-11-10,51,Loyal Customers
+CUST-1800,Charles Garcia,West,Consumer,5,4461.2615000000005,2025-12-09,22,Champions
+CUST-1801,Charles Lopez,Unknown,Consumer,6,1145.6365,2025-12-12,19,Loyal Customers
+CUST-1802,Betty Garcia,East,Consumer,6,1385.7395,2025-11-19,42,Loyal Customers
+CUST-1803,Karen Anderson,Midwest,Corporate,6,766.96,2025-07-21,163,At-Risk
+CUST-1804,Matthew Wilson,Midwest,Small Business,2,2034.9405000000002,2025-11-20,41,Potential Loyalists
+CUST-1805,Michael Gonzalez,East,Corporate,7,1468.7035,2025-11-29,32,Loyal Customers
+CUST-1806,Richard Smith,Midwest,Small Business,4,407.973,2025-12-03,28,Loyal Customers
+CUST-1807,Donald Martinez,South,Corporate,5,1794.836,2025-12-01,30,Champions
+CUST-1808,Matthew Rodriguez,Midwest,Small Business,1,199.5,2024-04-12,628,Lost Customers
+CUST-1809,Patricia Johnson,South,Corporate,8,1222.9279999999999,2025-09-19,103,Loyal Customers
+CUST-1810,Linda Davis,North,Corporate,11,2599.0175,2025-11-08,53,Champions
+CUST-1811,Sandra Miller,East,Consumer,3,1034.0394999999999,2025-04-15,260,At-Risk
+CUST-1812,Anthony Jackson,Midwest,Corporate,4,1583.4250000000002,2025-10-04,88,Loyal Customers
+CUST-1813,Lisa Jackson,East,Corporate,7,1021.4659999999999,2025-11-22,39,Loyal Customers
+CUST-1814,Sandra Brown,Unknown,Consumer,2,3054.9175,2024-09-04,483,Lost Customers
+CUST-1815,Matthew Gonzalez,North,Small Business,7,1122.632,2025-11-24,37,Loyal Customers
+CUST-1816,Robert Hernandez,South,Small Business,4,1778.54,2025-10-11,81,Loyal Customers
+CUST-1817,Joseph Martin,South,Corporate,5,1929.7105000000001,2025-11-19,42,Champions
+CUST-1818,Robert Jones,Midwest,Consumer,2,247.94399999999996,2025-05-09,236,Lost Customers
+CUST-1819,Richard Rodriguez,West,Consumer,7,686.0235,2025-09-13,109,Loyal Customers
+CUST-1820,Jessica Moore,Unknown,Consumer,7,1653.1080000000002,2025-12-23,8,Champions
+CUST-1821,Karen Taylor,East,Corporate,7,760.314,2025-12-09,22,Loyal Customers
+CUST-1822,John Brown,East,Consumer,3,758.342,2025-03-13,293,At-Risk
+CUST-1823,Barbara Martin,East,Corporate,4,142.2255,2025-09-19,103,Loyal Customers
+CUST-1824,Anthony Anderson,North,Consumer,5,495.758,2025-06-10,204,At-Risk
+CUST-1825,Robert Williams,South,Consumer,7,1426.931,2025-12-17,14,Loyal Customers
+CUST-1826,James Hernandez,East,Corporate,5,663.0585,2025-03-29,277,At-Risk
+CUST-1827,David Miller,South,Small Business,3,263.93,2025-12-03,28,Loyal Customers
+CUST-1828,Sarah Thomas,Unknown,Corporate,6,1033.935,2025-08-05,148,At-Risk
+CUST-1829,Donald Taylor,North,Consumer,9,1403.0925,2025-10-12,80,Loyal Customers
+CUST-1830,William Johnson,North,Small Business,10,1103.4134999999999,2025-06-15,199,At-Risk
+CUST-1831,Nancy Lopez,East,Corporate,5,1472.8835,2025-09-11,111,Loyal Customers
+CUST-1832,Richard Taylor,East,Small Business,3,1477.923,2025-03-18,288,At-Risk
+CUST-1833,John Garcia,Midwest,Consumer,7,948.65,2025-12-25,6,Loyal Customers
+CUST-1834,Linda Taylor,West,Consumer,2,583.9540000000001,2024-08-09,509,Lost Customers
+CUST-1835,Barbara Lopez,South,Corporate,3,365.4,2025-02-07,327,At-Risk
+CUST-1836,Christopher Rodriguez,Midwest,Consumer,8,2174.261,2025-10-05,87,Loyal Customers
+CUST-1837,David Gonzalez,West,Small Business,4,1726.29,2025-02-10,324,At-Risk
+CUST-1838,Margaret Davis,South,Corporate,5,632.4405,2025-08-17,136,At-Risk
+CUST-1839,David Anderson,Unknown,Small Business,1,104.0,2024-07-05,544,Lost Customers
+CUST-1840,Nancy Miller,Midwest,Corporate,5,823.543,2025-12-28,3,Loyal Customers
+CUST-1841,Christopher Jackson,North,Small Business,3,766.4745,2025-12-24,7,Loyal Customers
+CUST-1842,Jennifer Hernandez,North,Corporate,4,783.9499999999999,2025-12-26,5,Loyal Customers
+CUST-1843,Elizabeth Anderson,East,Consumer,6,404.773,2025-12-08,23,Loyal Customers
+CUST-1844,Robert Garcia,Midwest,Corporate,7,824.1525,2025-07-06,178,At-Risk
+CUST-1845,Charles Martin,South,Consumer,5,618.902,2025-08-21,132,At-Risk
+CUST-1846,John Thomas,West,Small Business,6,2274.756,2025-10-30,62,Loyal Customers
+CUST-1847,Jennifer Gonzalez,South,Consumer,4,863.4185000000001,2025-05-01,244,At-Risk
+CUST-1848,Susan Smith,South,Small Business,3,379.14500000000004,2025-10-12,80,Loyal Customers
+CUST-1849,Matthew Miller,Midwest,Small Business,2,197.963,2025-02-15,319,Lost Customers
+CUST-1850,Margaret Anderson,West,Small Business,9,2377.1955,2025-09-17,105,Loyal Customers
+CUST-1851,Lisa Hernandez,Midwest,Small Business,5,1844.6160000000002,2025-10-02,90,Loyal Customers
+CUST-1852,Christopher Johnson,West,Consumer,5,378.992,2025-07-28,156,At-Risk
+CUST-1853,Sarah Gonzalez,Midwest,Small Business,4,1032.8970000000002,2025-12-04,27,Loyal Customers
+CUST-1854,Mary Miller,East,Corporate,4,428.572,2025-09-02,120,Loyal Customers
+CUST-1855,Susan Martinez,Midwest,Corporate,7,1397.0505,2025-09-29,93,Loyal Customers
+CUST-1856,Joseph Williams,South,Small Business,4,549.7535,2024-10-30,427,At-Risk
+CUST-1857,Robert Gonzalez,North,Corporate,2,2030.4365,2025-11-21,40,Potential Loyalists
+CUST-1858,Donald Miller,East,Small Business,2,1129.16,2025-11-19,42,Potential Loyalists
+CUST-1859,Sandra Garcia,North,Small Business,2,532.9745,2024-11-18,408,Lost Customers
+CUST-1860,Christopher Lopez,West,Small Business,6,1214.9305,2025-04-05,270,At-Risk
+CUST-1861,Jennifer Gonzalez,South,Small Business,4,648.614,2025-03-19,287,At-Risk
+CUST-1862,Margaret Jones,South,Consumer,9,1288.313,2025-11-15,46,Loyal Customers
+CUST-1863,Elizabeth Martinez,East,Consumer,5,1379.512,2025-11-26,35,Loyal Customers
+CUST-1864,Donald Jones,Midwest,Consumer,6,2638.242,2025-11-30,31,Champions
+CUST-1865,Jessica Thomas,Midwest,Consumer,6,1171.5285000000001,2025-08-08,145,At-Risk
+CUST-1866,Charles Thomas,North,Small Business,6,1743.915,2025-09-11,111,Loyal Customers
+CUST-1867,Linda Moore,Midwest,Consumer,5,224.145,2025-10-15,77,Loyal Customers
+CUST-1868,Robert Johnson,South,Small Business,5,1980.4859999999999,2025-12-23,8,Champions
+CUST-1869,Anthony Martin,North,Corporate,4,1436.4115000000002,2025-12-20,11,Loyal Customers
+CUST-1870,Jennifer Martinez,Midwest,Small Business,6,945.1965,2025-08-16,137,At-Risk
+CUST-1871,Joseph Jackson,North,Corporate,6,1270.359,2025-11-24,37,Loyal Customers
+CUST-1872,Donald Gonzalez,West,Consumer,5,1148.4695,2025-11-08,53,Loyal Customers
+CUST-1873,Jessica Jones,East,Corporate,7,1738.3145,2025-09-04,118,Loyal Customers
+CUST-1874,Michael Miller,Midwest,Small Business,2,679.905,2024-11-08,418,Lost Customers
+CUST-1875,John Thomas,East,Small Business,5,850.947,2025-10-05,87,Loyal Customers
+CUST-1876,William Taylor,East,Small Business,4,1710.8525000000002,2025-11-27,34,Loyal Customers
+CUST-1877,Jessica Taylor,West,Small Business,4,1779.92,2025-12-21,10,Loyal Customers
+CUST-1878,Daniel Martinez,North,Corporate,4,659.95,2025-07-07,177,At-Risk
+CUST-1879,Betty Brown,Midwest,Corporate,3,1334.943,2025-11-27,34,Loyal Customers
+CUST-1880,David Lopez,South,Small Business,4,1042.3400000000001,2025-12-12,19,Loyal Customers
+CUST-1881,Daniel Martinez,East,Small Business,5,1333.838,2025-12-12,19,Loyal Customers
+CUST-1882,David Smith,East,Small Business,9,1362.2825,2025-11-29,32,Loyal Customers
+CUST-1883,Karen Smith,East,Small Business,3,218.376,2025-12-14,17,Loyal Customers
+CUST-1884,Sandra Thomas,South,Consumer,2,326.081,2024-12-29,367,Lost Customers
+CUST-1885,Joseph Moore,West,Consumer,2,251.959,2024-12-11,385,Lost Customers
+CUST-1886,Elizabeth Jackson,Midwest,Consumer,10,1849.392,2025-12-13,18,Champions
+CUST-1887,Charles Hernandez,North,Corporate,7,1151.401,2025-11-30,31,Loyal Customers
+CUST-1888,David Gonzalez,Midwest,Corporate,7,3145.3385,2025-08-03,150,At-Risk
+CUST-1889,Karen Brown,East,Corporate,7,1257.591,2025-12-27,4,Loyal Customers
+CUST-1890,William Wilson,East,Corporate,2,141.98,2025-06-08,206,Lost Customers
+CUST-1891,Thomas Martinez,North,Consumer,2,249.98,2024-07-06,543,Lost Customers
+CUST-1892,Thomas Smith,South,Corporate,6,1364.9185,2025-03-18,288,At-Risk
+CUST-1893,Lisa Taylor,South,Small Business,7,1321.904,2025-10-05,87,Loyal Customers
+CUST-1894,Robert Miller,West,Small Business,3,276.36,2024-12-07,389,At-Risk
+CUST-1895,James Martinez,Midwest,Corporate,1,1349.955,2024-01-21,710,Lost Customers
+CUST-1896,Donald Johnson,Unknown,Corporate,3,1071.549,2025-04-21,254,At-Risk
+CUST-1898,William Moore,Unknown,Corporate,6,1801.8619999999999,2025-11-04,57,Champions
+CUST-1899,Jennifer Rodriguez,Midwest,Consumer,8,1657.0655,2025-08-10,143,At-Risk
+CUST-1900,Sarah Lopez,South,Corporate,2,498.1,2024-10-11,446,Lost Customers
+CUST-1901,Linda Garcia,East,Corporate,2,99.0,2025-10-14,78,Potential Loyalists
+CUST-1902,Robert Smith,North,Corporate,6,1069.6575,2025-11-08,53,Loyal Customers
+CUST-1903,John Wilson,Midwest,Small Business,5,1562.8945,2025-11-08,53,Champions
+CUST-1904,Karen Lopez,Unknown,Consumer,5,2461.8740000000003,2025-10-21,71,Loyal Customers
+CUST-1905,Charles Jones,West,Corporate,7,2860.1325,2025-12-29,2,Champions
+CUST-1906,Nancy Anderson,South,Corporate,2,50.9915,2025-02-06,328,Lost Customers
+CUST-1907,Richard Garcia,East,Corporate,6,1323.0145,2025-10-29,63,Loyal Customers
+CUST-1908,James Williams,West,Consumer,8,616.4435,2025-09-05,117,Loyal Customers
+CUST-1909,Matthew Lopez,Midwest,Corporate,4,743.4159999999999,2025-12-07,24,Loyal Customers
+CUST-1910,David Moore,Midwest,Corporate,3,228.68,2024-10-29,428,At-Risk
+CUST-1911,Susan Davis,South,Corporate,3,2590.566,2024-12-29,367,At-Risk
+CUST-1912,David Miller,West,Small Business,3,1657.3809999999999,2025-12-28,3,Loyal Customers
+CUST-1913,Sarah Davis,North,Small Business,5,598.2555,2025-08-28,125,At-Risk
+CUST-1914,Anthony Thomas,West,Small Business,8,882.9775,2025-04-25,250,At-Risk
+CUST-1915,Anthony Anderson,North,Consumer,4,773.36,2025-10-13,79,Loyal Customers
+CUST-1916,Matthew Gonzalez,Unknown,Consumer,6,1703.0655000000002,2025-06-27,187,At-Risk
+CUST-1917,Anthony Jones,Unknown,Consumer,5,1007.1804999999999,2025-11-11,50,Loyal Customers
+CUST-1918,Robert Anderson,Midwest,Corporate,4,339.562,2025-10-26,66,Loyal Customers
+CUST-1919,Michael Hernandez,East,Small Business,3,829.92,2025-12-20,11,Loyal Customers
+CUST-1920,John Jackson,Midwest,Consumer,8,2382.2835,2025-12-26,5,Champions
+CUST-1921,Mary Lopez,North,Small Business,5,1091.75,2025-10-16,76,Loyal Customers
+CUST-1922,Patricia Martinez,West,Small Business,1,199.992,2025-06-18,196,Lost Customers
+CUST-1923,Christopher Hernandez,West,Small Business,4,395.937,2025-07-08,176,At-Risk
+CUST-1924,Nancy Garcia,Midwest,Corporate,5,1887.283,2025-12-12,19,Champions
+CUST-1925,Robert Martinez,South,Consumer,2,499.96000000000004,2025-11-12,49,Potential Loyalists
+CUST-1926,Christopher Smith,Unknown,Consumer,10,863.7355,2025-11-21,40,Loyal Customers
+CUST-1927,Robert Wilson,Midwest,Small Business,6,1021.8014999999999,2025-10-30,62,Loyal Customers
+CUST-1928,Joseph Taylor,West,Consumer,6,1987.883,2025-12-12,19,Champions
+CUST-1929,Susan Martin,West,Consumer,5,1657.895,2025-09-29,93,Loyal Customers
+CUST-1930,William Wilson,East,Consumer,5,2625.872,2025-10-05,87,Loyal Customers
+CUST-1931,Jessica Lopez,North,Small Business,4,587.5405,2025-11-30,31,Loyal Customers
+CUST-1932,Margaret Rodriguez,Midwest,Consumer,6,856.7115,2025-12-01,30,Loyal Customers
+CUST-1933,Jessica Williams,Midwest,Small Business,7,3734.062,2025-09-11,111,Loyal Customers
+CUST-1934,Donald Hernandez,West,Small Business,6,1243.8705,2025-11-17,44,Loyal Customers
+CUST-1936,Lisa Martinez,East,Small Business,7,1408.073,2025-10-19,73,Loyal Customers
+CUST-1937,Charles Garcia,East,Small Business,4,628.6374999999999,2025-10-12,80,Loyal Customers
+CUST-1938,Elizabeth Thomas,North,Corporate,5,1465.8705,2025-12-25,6,Loyal Customers
+CUST-1939,Karen Rodriguez,North,Consumer,4,1073.396,2025-08-20,133,At-Risk
+CUST-1940,Jennifer Jackson,West,Consumer,4,180.56799999999998,2025-08-18,135,At-Risk
+CUST-1941,Betty Davis,North,Consumer,4,644.4045,2025-07-22,162,At-Risk
+CUST-1942,Karen Jones,West,Consumer,7,804.3885,2025-12-11,20,Loyal Customers
+CUST-1943,Joseph Garcia,East,Small Business,2,1420.941,2024-10-12,445,Lost Customers
+CUST-1944,Matthew Brown,West,Corporate,11,2007.666,2025-10-25,67,Loyal Customers
+CUST-1945,Lisa Moore,West,Corporate,4,1166.723,2024-04-30,610,At-Risk
+CUST-1946,Thomas Wilson,West,Small Business,1,159.96,2024-07-03,546,Lost Customers
+CUST-1947,Thomas Johnson,Unknown,Corporate,3,1306.946,2025-12-18,13,Loyal Customers
+CUST-1948,Sandra Rodriguez,North,Small Business,5,519.558,2025-12-16,15,Loyal Customers
+CUST-1949,Richard Anderson,South,Small Business,5,658.6735,2025-11-04,57,Loyal Customers
+CUST-1950,Matthew Miller,South,Small Business,4,486.464,2025-06-27,187,At-Risk
+CUST-1951,Nancy Smith,West,Small Business,1,84.0,2024-02-18,682,Lost Customers
+CUST-1952,Nancy Anderson,East,Consumer,2,979.9275,2024-08-26,492,Lost Customers
+CUST-1953,James Martin,Unknown,Small Business,4,785.1775,2025-06-23,191,At-Risk
+CUST-1954,Patricia Brown,South,Small Business,4,1566.9350000000002,2025-09-01,121,At-Risk
+CUST-1955,Charles Garcia,South,Corporate,3,279.96,2025-12-12,19,Loyal Customers
+CUST-1956,Nancy Williams,West,Small Business,7,970.356,2025-03-25,281,At-Risk
+CUST-1957,William Garcia,North,Corporate,7,1259.145,2025-12-11,20,Loyal Customers
+CUST-1958,Mary Rodriguez,South,Consumer,2,854.9355,2024-12-22,374,Lost Customers
+CUST-1959,Sandra Miller,Unknown,Consumer,7,1455.422,2025-09-21,101,Loyal Customers
+CUST-1960,Sarah Wilson,North,Small Business,4,374.0215,2024-12-12,384,At-Risk
+CUST-1961,Patricia Johnson,East,Consumer,7,915.53,2025-12-23,8,Loyal Customers
+CUST-1962,Robert Smith,West,Consumer,9,1082.1315,2025-10-01,91,Loyal Customers
+CUST-1963,Donald Gonzalez,West,Corporate,6,1071.3285,2025-12-08,23,Loyal Customers
+CUST-1964,Margaret Williams,West,Corporate,6,1780.9005,2025-11-08,53,Champions
+CUST-1965,Charles Moore,East,Corporate,3,1200.4745,2025-12-17,14,Loyal Customers
+CUST-1966,Mary Williams,North,Corporate,10,1310.818,2025-12-26,5,Loyal Customers
+CUST-1967,Michael Garcia,Unknown,Corporate,7,1430.656,2025-05-26,219,At-Risk
+CUST-1968,Donald Brown,West,Small Business,8,1728.5320000000002,2025-10-31,61,Loyal Customers
+CUST-1969,Lisa Miller,North,Small Business,11,2700.1705,2025-09-11,111,Loyal Customers
+CUST-1970,Jessica Gonzalez,Unknown,Corporate,4,1089.1505,2025-10-25,67,Loyal Customers
+CUST-1971,Anthony Anderson,North,Consumer,5,811.5189999999999,2025-10-26,66,Loyal Customers
+CUST-1972,Betty Johnson,Unknown,Small Business,5,1952.852,2025-09-30,92,Loyal Customers
+CUST-1973,Nancy Moore,South,Consumer,12,3880.1045,2025-10-27,65,Loyal Customers
+CUST-1974,Jessica Smith,North,Small Business,5,1008.738,2025-11-29,32,Loyal Customers
+CUST-1975,Robert Smith,East,Corporate,5,165.3,2025-04-26,249,At-Risk
+CUST-1976,Jennifer Jackson,North,Small Business,5,184.454,2025-11-23,38,Loyal Customers
+CUST-1977,Linda Williams,East,Small Business,7,759.936,2025-04-23,252,At-Risk
+CUST-1978,David Brown,Midwest,Corporate,5,1989.46,2025-02-19,315,At-Risk
+CUST-1979,Matthew Johnson,North,Corporate,5,1393.429,2025-08-25,128,At-Risk
+CUST-1981,Sandra Jackson,Unknown,Corporate,5,2155.8975,2025-06-29,185,At-Risk
+CUST-1982,James Thomas,South,Small Business,3,1000.9365,2025-12-25,6,Loyal Customers
+CUST-1983,Charles Martinez,West,Consumer,3,596.1775,2025-01-05,360,At-Risk
+CUST-1984,Robert Rodriguez,South,Small Business,7,1022.107,2025-07-24,160,At-Risk
+CUST-1985,Karen Garcia,North,Corporate,9,1667.6730000000002,2025-12-04,27,Champions
+CUST-1986,Susan Smith,North,Consumer,3,241.2,2024-10-13,444,At-Risk
+CUST-1987,Barbara Moore,Unknown,Consumer,3,478.9425,2025-10-09,83,Loyal Customers
+CUST-1988,Mary Miller,Unknown,Corporate,5,4469.8215,2025-12-29,2,Champions
+CUST-1989,Jennifer Johnson,East,Corporate,1,191.968,2024-09-13,474,Lost Customers
+CUST-1990,David Martin,West,Consumer,2,1914.95,2025-09-23,99,Lost Customers
+CUST-1991,Sandra Moore,West,Consumer,10,1731.416,2025-12-07,24,Champions
+CUST-1992,Donald Davis,Midwest,Corporate,6,1022.312,2025-05-20,225,At-Risk
+CUST-1993,Lisa Hernandez,East,Consumer,6,1321.305,2025-07-29,155,At-Risk
+CUST-1994,Lisa Wilson,South,Corporate,5,934.2330000000001,2025-08-24,129,At-Risk
+CUST-1995,Jessica Johnson,South,Corporate,6,1392.82,2025-12-22,9,Loyal Customers
+CUST-1996,Richard Lopez,South,Corporate,1,0.0,2025-01-05,360,Lost Customers
+CUST-1997,Michael Hernandez,Midwest,Corporate,9,1235.346,2025-12-28,3,Loyal Customers
+CUST-1998,Patricia Anderson,East,Corporate,5,1186.4245,2025-06-29,185,At-Risk
+CUST-1999,Jennifer Martin,Midwest,Consumer,3,293.66249999999997,2025-10-26,66,Loyal Customers
+CUST-2000,Margaret Taylor,Midwest,Corporate,4,521.4475,2025-09-20,102,Loyal Customers

@@ -1,0 +1,51 @@
+product_id,product_name,category,unit_cost,unit_price
+PROD-01,Wireless Noise-Canceling Headphones,Electronics,120.0,249.99
+PROD-02,"Smart 4K Ultra HD TV 55""",Electronics,350.0,699.99
+PROD-03,Mechanical Gaming Keyboard,Electronics,45.0,99.99
+PROD-04,Ergonomic Wireless Mouse,Electronics,20.0,49.99
+PROD-05,Portable Bluetooth Speaker,Home & Kitchen,30.0,79.99
+PROD-06,Smart Watch Series V,Electronics,110.0,229.99
+PROD-07,USB-C Multi-Port Hub,Home and Kitchen,15.0,39.99
+PROD-08,High-Speed Wi-Fi Router,Electronics,50.0,119.99
+PROD-09,Noise Isolating Earbuds,Electronics,25.0,59.99
+PROD-10,HD Webcam 1080p,Sports & Outdoors,30.0,69.99
+PROD-11,Men's Lightweight Running Jacket,Apparel,25.0,65.0
+PROD-12,Women's High-Waist Yoga Pants,Apparel,18.0,48.0
+PROD-13,Classic Cotton Crewneck T-Shirt,Apparel,8.0,24.0
+PROD-14,All-Weather Waterproof Boots,Electronics,45.0,110.0
+PROD-15,Unisex Fleece Pullover Hoodie,Apparel,20.0,55.0
+PROD-16,Slim-Fit Denim Jeans,ELECTRONICS,28.0,68.0
+PROD-17,Thermal Base Layer Top,Apparel,15.0,38.0
+PROD-18,Breathable Athletic Socks (6-Pack),Home and Kitchen,6.0,18.0
+PROD-19,Casual Canvas Sneakers,Apparel,22.0,52.0
+PROD-20,Winter Insulated Gloves,Sports & Outdoors,12.0,32.0
+PROD-21,Stainless Steel Espresso Machine,Home & Kitchen,140.0,299.99
+PROD-22,Non-Stick Ceramic Cookware Set,Beauty & care,80.0,189.99
+PROD-23,Smart Robot Vacuum Cleaner,Home & Kitchen,160.0,349.99
+PROD-24,Digital Air Fryer Oven 6Qt,Home & Kitchen,50.0,119.99
+PROD-25,High-Speed Blender 1200W,Home & Kitchen,40.0,89.99
+PROD-26,Memory Foam Queen Mattress Topper,Home & Kitchen,65.0,139.99
+PROD-27,Electric Kettle Temperature Control,apparel,22.0,49.99
+PROD-28,"Chef's Knife Japanese Steel 8""",Home & Kitchen,30.0,74.99
+PROD-29,Automatic Drip Coffee Maker,Home & Kitchen,25.0,59.99
+PROD-30,Air Purifier for Large Room,Home & Kitchen,75.0,159.99
+PROD-31,Hydrating Facial Serum Vitamin C,Beauty & Care,12.0,34.0
+PROD-32,Sonic Electric Toothbrush,Beauty & Care,28.0,69.99
+PROD-33,Organic Argan Hair Oil Repair,Beauty & Care,9.0,26.0
+PROD-34,Deep Cleansing Charcoal Scrub,Beauty & Care,7.0,19.99
+PROD-35,Gentle Daily Face Moisturizer,Beauty & Care,10.0,28.0
+PROD-36,Anti-Aging Retinol Night Cream,Beauty & Care,15.0,42.0
+PROD-37,Professional Hair Dryer 1875W,Beauty & Care,25.0,59.99
+PROD-38,Natural Sunscreen SPF 50,Beauty & Care,8.0,22.0
+PROD-39,Exfoliating Body Wash Lavender,Beauty & Care,5.0,14.99
+PROD-40,Beard Grooming & Trimming Kit,Beauty & Care,14.0,35.0
+PROD-41,Adjustable Dumbbell Set 50lbs,Sports & Outdoors,110.0,249.99
+PROD-42,Waterproof 4-Person Camping Tent,Beauty & care,60.0,149.99
+PROD-43,Insulated Stainless Hydration Bottle,Sports & Outdoors,10.0,29.99
+PROD-44,Ultra-Thick Non-Slip Yoga Mat,Sports & Outdoors,14.0,36.0
+PROD-45,Folding Camping Chair Set,Sports & Outdoors,22.0,54.99
+PROD-46,Trekking Poles Aluminum Pair,apparel,16.0,39.99
+PROD-47,Resistance Exercise Bands (Set of 5),Sports & Outdoors,7.0,19.99
+PROD-48,High-Performance Bicycle Helmet,Sports & Outdoors,25.0,64.99
+PROD-49,Outdoor Hydration Backpack 2L,  Apparel ,18.0,44.99
+PROD-50,Compact LED Camping Lantern,Sports & Outdoors,8.0,21.99
